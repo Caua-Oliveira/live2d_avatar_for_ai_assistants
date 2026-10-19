@@ -1,0 +1,19 @@
+{
+  "name": "baobble-live2d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.32",
+    "pixi-live2d-display": "0.5.0-beta",
+    "pixi.js": "7.4.3"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

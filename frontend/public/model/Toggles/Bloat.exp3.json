@@ -1,0 +1,15 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "Bloat",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "BloatAccessories",
+            "Value": 1.0,
+            "Blend": "Add"
+        }
+    ]
+}

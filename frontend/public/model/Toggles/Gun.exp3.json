@@ -1,0 +1,20 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "Knife",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Gun",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Fish",
+            "Value": 0.0,
+            "Blend": "Add"
+        }
+    ]
+}

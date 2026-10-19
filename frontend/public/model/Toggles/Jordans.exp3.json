@@ -1,0 +1,20 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "Jordans",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "CrocsPink",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "CrocsWhite",
+            "Value": 0.0,
+            "Blend": "Add"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "pestonini.moc3",
+		"Textures": [
+			"pestonini.8192/texture_00.png",
+			"pestonini.8192/texture_01.png",
+			"pestonini.8192/texture_02.png",
+			"pestonini.8192/texture_03.png",
+			"pestonini.8192/texture_04.png"
+		],
+		"Physics": "pestonini.physics3.json",
+		"DisplayInfo": "pestonini.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "WhitePanty",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "USAPanty",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "AnchorPanty",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "BlueberryMode",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "SexyPanty",
+            "Value": 0.0,
+            "Blend": "Add"
+        }
+    ]
+}

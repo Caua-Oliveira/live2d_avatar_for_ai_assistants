@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8f2" />
+    <meta name="description" content="Converse com a Jorgina, sua assistente universitária. Tire dúvidas sobre o campus por texto ou voz." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet" />
+    <title>Jorgina — Seu campus, mais perto</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#chat-input">Ir para a conversa</a>
+    <div class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Jorgina, início">
+          <span class="brand-mark" aria-hidden="true"><i data-icon="sparkles"></i></span>
+          <span>jorgina<span class="brand-dot">.</span></span>
+        </a>
+        <div class="header-actions">
+          <span class="connection" id="connection" data-status="checking"><span class="status-dot"></span><span id="connection-label">Conectando</span></span>
+        </div>
+      </header>
+
+      <main>
+        <h1 class="sr-only">Jorgina — Assistente universitária</h1>
+
+        <div class="workspace">
+          <section class="avatar-section" aria-label="Jorgina, sua assistente virtual">
+            <div class="avatar-stage" id="avatar-stage" data-state="idle">
+              <div class="animation-controls">
+                <button id="animation-toggle" class="animation-toggle" type="button" aria-expanded="false" aria-controls="animation-options">Testar animações</button>
+                <div id="animation-options" class="animation-options" hidden>
+                  <label for="animation-select">Animação</label>
+                  <select id="animation-select">
+                    <option value="normal">Normal (automático)</option>
+                    <option value="neutral">Neutra</option>
+                    <option value="happy">Feliz</option>
+                    <option value="sad">Triste</option>
+                    <option value="listening">Ouvindo</option>
+                    <option value="thinking">Pensando</option>
+                    <option value="speaking">Falando</option>
+                  </select>
+                </div>
+              </div>
+              <div class="avatar-halo" aria-hidden="true"><div></div></div>
+              <span class="stage-spark spark-one" aria-hidden="true">✦</span><span class="stage-spark spark-two" aria-hidden="true">✳</span>
+              <div id="avatar-canvas" role="img" aria-label="Avatar animado de Jorgina"></div>
+              <div id="avatar-loading" class="avatar-loading"><span class="loader"></span><span>Carregando avatar…</span></div>
+              <div id="avatar-error" class="avatar-error" hidden><i data-icon="sparkles"></i><p>Meu avatar não carregou.<br />Mas podemos continuar conversando!</p><button id="retry-avatar" class="text-button">Tentar novamente</button></div>
+              <div class="avatar-shadow" aria-hidden="true"></div>
+              <div class="avatar-state" role="status"><span class="state-indicator" id="state-indicator"></span><span id="avatar-state-label">Pronta para ajudar</span><span class="sound-wave" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b></span></div>
+            </div>
+
+            <div class="avatar-toolbar" aria-label="Controles do avatar">
+              <button id="camera-btn" class="toolbar-button" aria-pressed="false"><i data-icon="camera"></i><span>Ativar contato visual</span><span class="toggle-track" aria-hidden="true"></span></button>
+              <span class="toolbar-divider"></span>
+              <button id="sound-btn" class="toolbar-button" aria-pressed="true"><i data-icon="volume"></i><span>Voz ativada</span><span class="toggle-track" aria-hidden="true"></span></button>
+              <button id="stop-audio" class="stop-audio" hidden><i data-icon="stop"></i> Parar</button>
+            </div>
+            <div class="camera-feedback" id="camera-feedback" hidden><span class="status-dot"></span><span id="camera-status">Procurando seu rosto…</span><span class="camera-privacy">Vídeo processado só neste dispositivo</span></div>
+
+          </section>
+
+          <section class="chat-panel" aria-labelledby="chat-title">
+            <header class="chat-header"><span class="chat-avatar"><i data-icon="sparkles"></i></span><h2 id="chat-title">Conversa</h2><button id="new-chat" class="icon-button" title="Nova conversa" aria-label="Iniciar nova conversa"><i data-icon="new-chat"></i></button></header>
+            <div class="chat-history" id="chat-history" role="log" aria-label="Histórico da conversa" aria-live="polite" aria-relevant="additions"></div>
+            <div class="chat-compose">
+              <div class="recording-panel" id="recording-panel" hidden><span class="record-dot"></span><span id="recording-label">Estou ouvindo…</span><time id="recording-time">0:00</time><button type="button" id="cancel-recording" class="icon-button" aria-label="Descartar gravação"><i data-icon="close"></i></button></div>
+              <form id="chat-form">
+                <label class="sr-only" for="chat-input">Sua pergunta para a Jorgina</label>
+                 <textarea id="chat-input" rows="1" maxlength="4000" placeholder="O que você quer saber?" required></textarea>
+                <div class="compose-actions"><button type="button" id="mic-btn" class="mic-button" aria-label="Pode falar: gravar pergunta por voz" aria-pressed="false"><i data-icon="mic"></i><span>Pode falar</span></button><span class="input-shortcut">Enter para enviar</span><button id="send-btn" class="send-button" type="submit" aria-label="Enviar pergunta" disabled><i data-icon="arrow-up"></i></button></div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <video id="camera-video" autoplay muted playsinline hidden></video>
+    <audio id="ai-audio" crossorigin="anonymous" preload="auto"></audio>
+    <script src="/live2dcubismcore.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
