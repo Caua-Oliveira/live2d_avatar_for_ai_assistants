@@ -5,14 +5,15 @@ description = "Add your description here"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi",
-    "google-genai",
-    "gtts",
+    "openai",
+    "httpx",
     "pydantic",
     "pydantic-settings",
     "pydub",
     "audioop-lts; python_version >= '3.13'",
     "python-multipart",
     "speechrecognition",
+    "nvidia-riva-client",
     "uvicorn[standard]",
 ]
 

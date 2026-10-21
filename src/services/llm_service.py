@@ -2,11 +2,11 @@ import json
 import asyncio
 import time
 from typing import Dict, Any
-from google import genai
-from google.genai import types
+from openai import AsyncOpenAI
 
 from src.core.config import settings
-from src.services.rag_service import AVAILABLE_TOOLS, get_locais, get_coordenacao
+from src.models.schemas import AssistantReply
+from src.services.rag_service import AVAILABLE_TOOLS
 
 SYSTEM_INSTRUCTION = """
 Você é uma assistente universitária chamado Jorgina.
@@ -21,27 +21,64 @@ REGRAS:
 - Nunca informe quais dados você tem.
 
 CRÍTICO - FORMATO DE SAÍDA:
-Você DEVE OBRIGATORIAMENTE retornar sua resposta final em formato JSON válido, contendo o texto e a emoção.
-As emoções permitidas são: "happy", "sad", "neutral".
+Você DEVE OBRIGATORIAMENTE retornar sua resposta final em formato JSON válido, contendo duas versões do texto e a emoção.
+- "text_ui": a resposta completa escrita ao usuário, sem rubricas de atuação. Use a forma escrita normal de números, horários, datas e siglas.
+- "text_tts": a mesma resposta pronta para ser falada em português brasileiro. Escreva por extenso números, horários, datas, valores e abreviações (por exemplo, "08:00 às 12:00" vira "oito da manhã ao meio-dia", e "prédio 1" vira "prédio um"). Pronuncie siglas como são faladas. Não use markdown, emojis, URLs ou símbolos. Mantenha exatamente o mesmo conteúdo de "text_ui", sem acrescentar nem remover fatos. Se a resposta já estiver adequada para fala, "text_tts" pode ser igual a "text_ui".
+As emoções permitidas são: "happy", "sad", "neutral", sempre em minúsculas. A emoção deve condizer com o que você falar: agradecer ou conseguir achar uma informação, "happy"; questão simples/aleatória, "neutral"; não conseguir responder, "sad".
+
 
 Exemplo de saída:
 {
-    "text": "O laboratório fica no prédio 1.",
-    "emotion": "neutral"
+    "text_ui": "Bom dia! Sim, o professor Caio atende às segundas-feiras, das 08:00 às 12:00.",
+    "text_tts": "Bom dia! Sim, o professor Caio atende às segundas-feiras, das oito da manhã ao meio-dia.",
+    "emotion": "happy"
 }
 """
 
 
+REPLY_FORMAT = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "assistant_reply",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "properties": {
+                "text_ui": {"type": "string", "minLength": 1},
+                "text_tts": {"type": "string", "minLength": 1},
+                "emotion": {"type": "string", "enum": ["happy", "sad", "neutral"]},
+            },
+            "required": ["text_ui", "text_tts", "emotion"],
+            "additionalProperties": False,
+        },
+    },
+}
+
+
 class LLMService:
     def __init__(self):
-        self.client = genai.Client(api_key=settings.GEMINI_API_KEY)
-
-        self.config = types.GenerateContentConfig(
-            system_instruction=SYSTEM_INSTRUCTION,
-            tools=[get_locais, get_coordenacao],
-            response_mime_type="application/json"
+        self.client = AsyncOpenAI(
+            api_key=settings.NVIDIA_API_KEY,
+            base_url=settings.NVIDIA_BASE_URL,
+            timeout=settings.LLM_TIMEOUT_SECONDS,
+            max_retries=0,
         )
-
+        self.tools = [
+            {
+                "type": "function",
+                "function": {
+                    "name": name,
+                    "description": function.__doc__.strip(),
+                    "parameters": {
+                        "type": "object",
+                        "properties": {},
+                        "required": [],
+                        "additionalProperties": False,
+                    },
+                },
+            }
+            for name, function in AVAILABLE_TOOLS.items()
+        ]
         self.sessions: Dict[str, Dict[str, Any]] = {}
 
     #TODO: Originalmente, era somente uma sessão padrão, mas estou tentando implementar sessões separadas para cada usuário logado.
@@ -52,7 +89,7 @@ class LLMService:
 
         if user_id not in self.sessions:
             self.sessions[user_id] = {
-                "chat": self.client.chats.create(model=settings.MODEL_NAME, config=self.config),
+                "messages": [],
                 "last_activity": current_time,
                 "last_q": "",
                 "last_a": ""
@@ -67,80 +104,136 @@ class LLMService:
                 last_a = session_data.get("last_a")
 
                 if last_q and last_a:
-                    new_history = [
-                        types.Content(role="user", parts=[types.Part.from_text(text=last_q)]),
-                        types.Content(role="model", parts=[types.Part.from_text(text=last_a)])
+                    session_data["messages"] = [
+                        {"role": "user", "content": last_q},
+                        {"role": "assistant", "content": last_a},
                     ]
-                    self.sessions[user_id]["chat"] = self.client.chats.create(
-                        model=settings.MODEL_NAME,
-                        config=self.config,
-                        history=new_history
-                    )
                 else:
-                    self.sessions[user_id]["chat"] = self.client.chats.create(
-                        model=settings.MODEL_NAME, config=self.config
-                    )
+                    session_data["messages"] = []
             else:
                 # 1 minuto de timeout caso o usuário logado não interaja
                 if (current_time - session_data["last_activity"]) > 60:
-                    self.sessions[user_id]["chat"] = self.client.chats.create(
-                        model=settings.MODEL_NAME, config=self.config
-                    )
+                    session_data["messages"] = []
 
         self.sessions[user_id]["last_activity"] = current_time
-        return self.sessions[user_id]["chat"]
+        return self.sessions[user_id]["messages"]
 
     def clear_session(self, user_id: str):
         if user_id in self.sessions:
             del self.sessions[user_id]
 
-    async def process_text(self, user_text: str, user_id: str = "default_user") -> tuple[str, str]:
+    async def process_text(self, user_text: str, user_id: str = "default_user") -> AssistantReply:
         try:
-            chat_session = self.get_or_create_session(user_id)
+            # Um único prazo inclui todas as rodadas de ferramentas, sem retries.
+            async with asyncio.timeout(settings.LLM_TIMEOUT_SECONDS):
+                return await self._process_text(user_text, user_id)
+        except TimeoutError as e:
+            print(f"LLM Error: Prazo total de {settings.LLM_TIMEOUT_SECONDS:g}s excedido.")
+            raise RuntimeError("O serviço de IA demorou demais para responder. Tente novamente.") from e
 
-            response = await asyncio.to_thread(chat_session.send_message, user_text)
+    async def _process_text(self, user_text: str, user_id: str) -> AssistantReply:
+        try:
+            history = self.get_or_create_session(user_id)
+            messages = [*history, {"role": "user", "content": user_text}]
 
-            # Intercepta as chamadas de função antes de tentar analisar o texto JSON
-            # Isso evita o erro "NoneType" quando a resposta é apenas uma chamada de função.
-            # O modelo busca apenas os dados de que precisa; o banco completo nunca é enviado.
-            while response.function_calls:
-                function_responses = []
-
-                for function_call in response.function_calls:
-                    tool_name = function_call.name
-
-                    if tool_name in AVAILABLE_TOOLS:
-                        tool_function = AVAILABLE_TOOLS[tool_name]
-                        tool_result = tool_function()
-
-
-                        function_responses.append(
-                            types.Part.from_function_response(
-                                name=tool_name,
-                                response={"result": tool_result}
-                            )
-                        )
-
-                if not function_responses:
+            # O modelo recebe apenas os dados solicitados pelas ferramentas.
+            # O limite evita ciclos de chamadas sem uma resposta final.
+            for tool_round in range(9):
+                # Nemotron permite desativar o raciocínio para respostas curtas.
+                extra_body = (
+                    {"chat_template_kwargs": {"enable_thinking": False}}
+                    if settings.MODEL_NAME.startswith("nvidia/nemotron-3-")
+                    else {}
+                )
+                response = await self.client.chat.completions.create(
+                    model=settings.MODEL_NAME,
+                    messages=[{"role": "system", "content": SYSTEM_INSTRUCTION}, *messages],
+                    tools=self.tools,
+                    tool_choice="auto",
+                    extra_body=extra_body,
+                    max_tokens=4096,
+                )
+                message = response.choices[0].message
+                if not message.tool_calls:
                     break
+                if tool_round == 8:
+                    raise ValueError("O modelo excedeu o limite de chamadas de ferramentas.")
 
-                response = await asyncio.to_thread(chat_session.send_message, function_responses)
+                messages.append(message.model_dump(exclude_none=True))
+                for tool_call in message.tool_calls:
+                    tool_name = tool_call.function.name
+                    if tool_name not in AVAILABLE_TOOLS:
+                        raise ValueError("O modelo solicitou uma ferramenta desconhecida.")
+                    if json.loads(tool_call.function.arguments or "{}") != {}:
+                        raise ValueError("A ferramenta não aceita argumentos.")
+                    tool_result = await asyncio.to_thread(AVAILABLE_TOOLS[tool_name])
+                    messages.append({
+                        "role": "tool",
+                        "tool_call_id": tool_call.id,
+                        "content": json.dumps({"result": tool_result}, ensure_ascii=False),
+                    })
 
-            if not response.text:
+            if not message.content or response.choices[0].finish_reason == "length":
                 raise ValueError("O modelo não retornou um texto na resposta final.")
 
-            response_data = json.loads(response.text)
+            try:
+                reply = self._parse_reply(message.content)
+            except ValueError:
+                # O schema junto de tools pode impedir chamadas de ferramentas
+                # no provedor. Use-o apenas para reparar a resposta final.
+                formatted = await self.client.chat.completions.create(
+                    model=settings.MODEL_NAME,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_INSTRUCTION},
+                        *messages,
+                        {"role": "assistant", "content": message.content},
+                        {"role": "user", "content": (
+                            "Reformate sua resposta anterior como JSON com text_ui, text_tts e emotion. "
+                            "text_ui é a resposta escrita; text_tts é a mesma resposta pronta para fala, "
+                            "com números, horários e abreviações por extenso. "
+                            "Não acrescente fatos nem invente informações."
+                        )},
+                    ],
+                    response_format=REPLY_FORMAT,
+                    extra_body=extra_body,
+                    max_tokens=4096,
+                )
+                final_choice = formatted.choices[0]
+                if not final_choice.message.content or final_choice.finish_reason == "length":
+                    raise ValueError("O modelo não retornou um texto na resposta final.")
+                reply = self._parse_reply(final_choice.message.content)
 
             if user_id in self.sessions:
+                messages.append({"role": "assistant", "content": reply.model_dump_json()})
+                self.sessions[user_id]["messages"] = messages
                 self.sessions[user_id]["last_activity"] = time.time()
                 self.sessions[user_id]["last_q"] = user_text
-                self.sessions[user_id]["last_a"] = response.text
+                self.sessions[user_id]["last_a"] = reply.model_dump_json()
 
-            return response_data.get("text", "Erro ao gerar texto."), response_data.get("emotion", "neutral")
+            return reply
 
         except Exception as e:
             print(f"LLM Error: {e}")
             raise RuntimeError("Não foi possível processar a pergunta.") from e
+
+    @staticmethod
+    def _parse_reply(content: str) -> AssistantReply:
+        response_data = json.loads(content)
+        if not isinstance(response_data, dict):
+            raise ValueError("O modelo não retornou um objeto de resposta válido.")
+        values = {}
+        for field in ("text_ui", "text_tts"):
+            value = response_data.get(field)
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f"O modelo não retornou {field} válido.")
+            values[field] = value.strip()
+        emotion = response_data.get("emotion", "neutral")
+        if isinstance(emotion, str):
+            emotion = emotion.strip().lower()
+        return AssistantReply(
+            **values,
+            emotion=emotion if emotion in ("happy", "sad", "neutral") else "neutral",
+        )
 
 
 llm_service_instance = LLMService()

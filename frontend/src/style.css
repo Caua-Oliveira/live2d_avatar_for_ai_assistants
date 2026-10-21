@@ -50,7 +50,6 @@ textarea::placeholder { color: #737c69; }
 .message-meta time { font-size: 9px; }
 .compose-note { font-size: 9px; }
 
-.animation-controls{position:absolute;top:10px;right:10px;z-index:5;max-width:calc(100% - 20px)}
-.animation-toggle{display:block;margin-left:auto;background:#fffefa;border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:11px;min-height:36px}
-.animation-options{display:flex;flex-direction:column;gap:6px;margin-top:5px;padding:10px;background:#fffefa;border:1px solid var(--line);border-radius:10px;box-shadow:0 4px 12px #3a4e3210;font-size:11px}
-.animation-options select{font:inherit;font-size:16px;color:var(--green);background:#fffefa;border:1px solid var(--line);border-radius:6px;padding:6px;max-width:100%}
+.appearance-link{font-size:12px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:#fffefa;text-align:center}
+.appearance-link:hover{border-color:#9aaa89;color:var(--green)}
+@media(max-width:730px){.header-actions{gap:8px}.appearance-link{font-size:10px;padding:7px}.connection{max-width:94px}}

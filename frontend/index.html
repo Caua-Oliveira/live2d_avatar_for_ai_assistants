@@ -20,6 +20,7 @@
           <span>jorgina<span class="brand-dot">.</span></span>
         </a>
         <div class="header-actions">
+          <a class="appearance-link" href="/changemodel">Personalizar avatar</a>
           <span class="connection" id="connection" data-status="checking"><span class="status-dot"></span><span id="connection-label">Conectando</span></span>
         </div>
       </header>
@@ -30,21 +31,6 @@
         <div class="workspace">
           <section class="avatar-section" aria-label="Jorgina, sua assistente virtual">
             <div class="avatar-stage" id="avatar-stage" data-state="idle">
-              <div class="animation-controls">
-                <button id="animation-toggle" class="animation-toggle" type="button" aria-expanded="false" aria-controls="animation-options">Testar animações</button>
-                <div id="animation-options" class="animation-options" hidden>
-                  <label for="animation-select">Animação</label>
-                  <select id="animation-select">
-                    <option value="normal">Normal (automático)</option>
-                    <option value="neutral">Neutra</option>
-                    <option value="happy">Feliz</option>
-                    <option value="sad">Triste</option>
-                    <option value="listening">Ouvindo</option>
-                    <option value="thinking">Pensando</option>
-                    <option value="speaking">Falando</option>
-                  </select>
-                </div>
-              </div>
               <div class="avatar-halo" aria-hidden="true"><div></div></div>
               <span class="stage-spark spark-one" aria-hidden="true">✦</span><span class="stage-spark spark-two" aria-hidden="true">✳</span>
               <div id="avatar-canvas" role="img" aria-label="Avatar animado de Jorgina"></div>
@@ -83,6 +69,6 @@
     <video id="camera-video" autoplay muted playsinline hidden></video>
     <audio id="ai-audio" crossorigin="anonymous" preload="auto"></audio>
     <script src="/live2dcubismcore.min.js"></script>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/entry.js"></script>
   </body>
 </html>

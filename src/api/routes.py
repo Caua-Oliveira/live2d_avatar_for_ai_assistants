@@ -1,10 +1,12 @@
-from fastapi import APIRouter, File, UploadFile, HTTPException, Form
+from fastapi import APIRouter, File, UploadFile, HTTPException, Form, Response
+import asyncio
 import logging
 from time import perf_counter
 
 from src.models.schemas import ChatTextRequest, ChatResponse, LogoutRequest, SpeechRequest
 from src.services.llm_service import llm_service_instance
-from src.services.audio_service import text_to_speech, speech_to_text, SpeechRecognitionUnavailable
+from src.services.audio_service import text_to_speech, speech_to_text, SpeechRecognitionUnavailable, InvalidSpeechAudio
+from src.services.appearance_service import AppearancePreset, load_appearance, save_appearance
 
 router = APIRouter()
 logger = logging.getLogger("uvicorn.error")
@@ -23,6 +25,26 @@ async def health_check():
     return {"status": "online"}
 
 
+@router.get("/avatar/appearance", response_model=AppearancePreset)
+async def get_avatar_appearance(response: Response):
+    response.headers["Cache-Control"] = "no-store"
+    try:
+        return await asyncio.to_thread(load_appearance)
+    except (OSError, ValueError) as error:
+        logger.exception("Could not load the shared avatar appearance")
+        raise HTTPException(status_code=503, detail="Não foi possível carregar o visual padrão.") from error
+
+
+@router.put("/avatar/appearance", response_model=AppearancePreset)
+async def put_avatar_appearance(preset: AppearancePreset, response: Response):
+    response.headers["Cache-Control"] = "no-store"
+    try:
+        return await asyncio.to_thread(save_appearance, preset)
+    except OSError as error:
+        logger.exception("Could not save the shared avatar appearance")
+        raise HTTPException(status_code=503, detail="Não foi possível salvar o visual padrão.") from error
+
+
 @router.post("/chat/text", response_model=ChatResponse)
 async def chat_with_text(request: ChatTextRequest):
     """
@@ -30,14 +52,15 @@ async def chat_with_text(request: ChatTextRequest):
     e retorna texto, emoção e um link de áudio TTS.
     """
     try:
-        text_reply, emotion = await timed_stage("llm", llm_service_instance.process_text(request.message, request.user_id))
+        reply = await timed_stage("llm", llm_service_instance.process_text(request.message, request.user_id))
 
-        audio_url = await timed_stage("tts", text_to_speech(text_reply)) if request.generate_audio else ""
+        audio_url = await timed_stage("tts", text_to_speech(reply.text_tts)) if request.generate_audio else ""
 
         return ChatResponse(
-            text_reply=text_reply,
-            emotion=emotion,
-            audio_url=audio_url
+            text_ui=reply.text_ui,
+            text_tts=reply.text_tts,
+            emotion=reply.emotion,
+            audio_url=audio_url,
         )
     except Exception as e:
         raise HTTPException(status_code=502, detail="Não foi possível gerar a resposta.") from e
@@ -62,8 +85,8 @@ async def chat_with_voice(user_id: str = Form("default_user"), audio_file: Uploa
             raise HTTPException(status_code=422, detail="Não consegui entender o áudio. Fale mais perto do microfone e tente novamente.")
 
         try:
-            text_reply, emotion = await timed_stage("llm", llm_service_instance.process_text(transcribed_text, user_id))
-            audio_url = await timed_stage("tts", text_to_speech(text_reply)) if generate_audio else ""
+            reply = await timed_stage("llm", llm_service_instance.process_text(transcribed_text, user_id))
+            audio_url = await timed_stage("tts", text_to_speech(reply.text_tts)) if generate_audio else ""
         except Exception as e:
             # Preserve successful transcription even when answer generation fails.
             raise HTTPException(status_code=502, detail={
@@ -72,13 +95,16 @@ async def chat_with_voice(user_id: str = Form("default_user"), audio_file: Uploa
             }) from e
 
         return ChatResponse(
-            text_reply=text_reply,
-            emotion=emotion,
+            text_ui=reply.text_ui,
+            text_tts=reply.text_tts,
+            emotion=reply.emotion,
             audio_url=audio_url,
-            transcribed_text=transcribed_text
+            transcribed_text=transcribed_text,
         )
     except HTTPException:
         raise
+    except InvalidSpeechAudio as error:
+        raise HTTPException(status_code=422, detail=str(error)) from error
     except SpeechRecognitionUnavailable as e:
         raise HTTPException(status_code=502, detail="O serviço de transcrição está indisponível. Tente novamente em instantes.") from e
     except Exception as e:
@@ -87,7 +113,7 @@ async def chat_with_voice(user_id: str = Form("default_user"), audio_file: Uploa
 
 @router.post("/chat/speech")
 async def generate_speech(request: SpeechRequest):
-    """Generate optional audio after the client has already displayed the answer."""
+    """Synthesize the complete answer as one audio clip."""
     audio_url = await timed_stage("tts", text_to_speech(request.text))
     if not audio_url:
         raise HTTPException(status_code=502, detail="Não foi possível gerar o áudio.")

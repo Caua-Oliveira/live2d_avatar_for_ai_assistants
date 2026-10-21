@@ -84,10 +84,6 @@ export class VoicePlayer {
 
   constructor(audio, onState, onLevel, onError) {
     Object.assign(this, { audio, onState, onLevel, onError });
-    audio.onended = () => this.stop();
-    audio.onerror = () => {
-      if (audio.getAttribute('src')) { this.stop(); onError('Não foi possível reproduzir a voz. A resposta está na conversa.'); }
-    };
   }
 
   async unlock() {
@@ -103,33 +99,47 @@ export class VoicePlayer {
     await this.context.resume();
   }
 
-  async play(url, emotion, onStarted = () => {}) {
+  async play(source, emotion, onStarted = () => {}) {
     this.stop();
     const generation = this.generation;
     try {
       await this.unlock();
       if (generation !== this.generation) return;
-      this.audio.src = url;
+      if (typeof source !== 'string' || !source) throw new Error('Missing speech audio');
+      this.audio.onended = () => {
+        if (generation === this.generation) this.stop();
+      };
+      this.audio.onerror = () => this.playbackError(new Error('Audio unavailable'), generation);
+      this.audio.src = source;
       await this.audio.play();
       if (generation !== this.generation) return;
       this.onState(true, emotion);
       onStarted();
       const update = () => {
-        this.analyser.getByteTimeDomainData(this.samples);
-        const rms = Math.sqrt(this.samples.reduce((sum, v) => sum + ((v - 128) / 128) ** 2, 0) / this.samples.length);
-        this.onLevel(Math.min(1, rms * 5));
+        if (generation !== this.generation) return;
+        let level = 0;
+        if (!this.audio.paused && !this.audio.ended) {
+          this.analyser.getByteTimeDomainData(this.samples);
+          level = Math.sqrt(this.samples.reduce((sum, v) => sum + ((v - 128) / 128) ** 2, 0) / this.samples.length) * 5;
+        }
+        this.onLevel(Math.min(1, level));
         this.frame = requestAnimationFrame(update);
       };
       update();
     } catch (error) {
-      if (generation !== this.generation) return;
-      this.stop();
-      this.onError(error.name === 'NotAllowedError' ? 'Toque em “Ouvir resposta” para liberar o áudio.' : 'Não foi possível reproduzir a voz. A resposta está na conversa.');
+      this.playbackError(error, generation);
     }
+  }
+
+  playbackError(error, generation) {
+    if (generation !== this.generation) return;
+    this.stop();
+    this.onError(error.name === 'NotAllowedError' ? 'Toque em “Ouvir resposta” para liberar o áudio.' : 'Não foi possível reproduzir a voz. A resposta está na conversa.');
   }
 
   stop() {
     this.generation++;
+    this.audio.onended = this.audio.onerror = null;
     this.audio.pause();
     this.audio.removeAttribute('src');
     this.audio.load();

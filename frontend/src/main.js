@@ -4,6 +4,7 @@ import { icon, renderIcons } from './icons.js';
 import { Avatar } from './avatar.js';
 import { FaceTracking } from './camera.js';
 import { VoicePlayer, VoiceRecorder } from './voice.js';
+import { loadAppearance } from './avatar-appearance.js';
 
 renderIcons();
 const $ = selector => document.querySelector(selector);
@@ -18,24 +19,14 @@ window.visualViewport?.addEventListener('resize', updateViewportHeight);
 window.addEventListener('resize', updateViewportHeight);
 updateViewportHeight();
 const avatar = new Avatar($('#avatar-canvas'));
-$('#animation-toggle').addEventListener('click', () => {
-  const options = $('#animation-options');
-  options.hidden = !options.hidden;
-  $('#animation-toggle').setAttribute('aria-expanded', String(!options.hidden));
-});
-$('#animation-select').addEventListener('change', event => {
-  avatar.setPreview(event.target.value);
-  $('#animation-toggle').textContent = avatar.preview
-    ? `Teste: ${event.target.selectedOptions[0].textContent}`
-    : 'Testar animações';
-});
-$('#animation-options').addEventListener('keydown', event => {
-  if (event.key === 'Escape') {
-    $('#animation-options').hidden = true;
-    $('#animation-toggle').setAttribute('aria-expanded', 'false');
-    $('#animation-toggle').focus();
-  }
-});
+let appearanceGeneration = 0;
+async function refreshAppearance() {
+  if (!avatar.model || document.hidden) return;
+  const generation = ++appearanceGeneration;
+  const parameters = await loadAppearance(avatar.appearanceControls);
+  if (generation === appearanceGeneration) avatar.setAppearance(parameters);
+}
+window.addEventListener('focus', () => { void refreshAppearance().catch(() => {}); });
 const recorder = new VoiceRecorder();
 let sessionId = crypto.randomUUID();
 let state = 'idle';
@@ -111,11 +102,13 @@ function appendMessage(role, text, options = {}) {
       play.addEventListener('click', async () => {
         if (busy || recording || micStarting) return toast('Termine sua pergunta antes de ouvir uma resposta.');
         const session = sessionId;
+        player.stop();
+        const playbackGeneration = player.generation;
         play.disabled = true;
         try {
           await player.unlock();
           const path = await ensureAudio(options);
-          if (session === sessionId && !busy && !recording && !micStarting) void player.play(audioUrl(path), options.emotion);
+          if (session === sessionId && playbackGeneration === player.generation && !busy && !recording && !micStarting && !document.hidden) void playReply(options, path);
         } catch { toast('Não foi possível gerar o áudio. A resposta em texto continua disponível.', 'error'); }
         finally { play.disabled = false; }
       });
@@ -171,7 +164,7 @@ async function ensureAudio(data, signal) {
       const response = await fetch(`${API_BASE}/api/chat/speech`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: data.text_reply }),
+        body: JSON.stringify({ text: data.text_tts || data.text_ui }),
         signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(30000)]) : AbortSignal.timeout(30000),
       });
       if (!response.ok) throw new Error('Speech unavailable');
@@ -182,6 +175,10 @@ async function ensureAudio(data, signal) {
     })().finally(() => { data.audioPromise = null; });
   }
   return data.audioPromise;
+}
+
+function playReply(data, source, onStarted = () => {}) {
+  return player.play(audioUrl(source), data.emotion, onStarted);
 }
 
 async function submitQuestion({ text, blob, userMessage }) {
@@ -215,7 +212,7 @@ async function submitQuestion({ text, blob, userMessage }) {
       if (blob && typeof error.detail?.transcribed_text === 'string' && error.detail.transcribed_text.trim()) {
         userMessage.querySelector('.message-body').textContent = error.detail.transcribed_text;
         toast('Áudio reconhecido. A transcrição está na conversa.');
-        // Retry the recognized text without uploading or transcribing the audio again.
+        // Retry the recognized text without uploading or transcribing it again.
         text = error.detail.transcribed_text;
         blob = null;
       }
@@ -224,7 +221,7 @@ async function submitQuestion({ text, blob, userMessage }) {
     }
     const data = await response.json();
     if (currentSession !== sessionId) return;
-    if (typeof data.text_reply !== 'string' || !data.text_reply.trim()) throw new Error('A resposta chegou incompleta. Vamos tentar novamente?');
+    if (typeof data.text_ui !== 'string' || !data.text_ui.trim()) throw new Error('A resposta chegou incompleta. Vamos tentar novamente?');
     if (data.transcribed_text) {
       userMessage.querySelector('.message-body').textContent = data.transcribed_text;
       toast('Áudio reconhecido. A transcrição está na conversa.');
@@ -235,7 +232,7 @@ async function submitQuestion({ text, blob, userMessage }) {
       if (revealed || currentSession !== sessionId || generation !== questionGeneration) return;
       revealed = true;
       pending.remove();
-      appendMessage('assistant', data.text_reply, data);
+      appendMessage('assistant', data.text_ui, data);
       if (state !== 'speaking') {
         setState('idle', data.emotion);
         emotionTimer = setTimeout(() => { if (state === 'idle') setState('idle'); }, 9000);
@@ -250,7 +247,7 @@ async function submitQuestion({ text, blob, userMessage }) {
         if (currentSession !== sessionId || generation !== questionGeneration) return;
         if (voiceEnabled && !speech.signal.aborted && !controller.signal.aborted && !document.hidden) {
           // Reveal only once playback really starts, not when TTS finishes.
-          await player.play(audioUrl(path), data.emotion, reveal);
+          await playReply(data, path, reveal);
         }
       } catch {
         if (currentSession === sessionId && !speech.signal.aborted && !controller.signal.aborted) {
@@ -425,15 +422,22 @@ async function checkConnection() {
     const response = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(5000) });
     const data = await response.json();
     setConnection(response.ok && data.status === 'online');
+    if (response.ok && data.status === 'online') void refreshAppearance().catch(() => {});
   } catch { setConnection(false); }
 }
 
 async function loadAvatar() {
   $('#avatar-loading').hidden = false;
   $('#avatar-error').hidden = true;
-  try { await avatar.load(); }
-  catch (error) { console.error('Live2D:', error); $('#avatar-error').hidden = false; }
-  finally { $('#avatar-loading').hidden = true; }
+  try { await avatar.load(); await refreshAppearance(); }
+  catch (error) {
+    console.error('Live2D:', error);
+    if (avatar.model) toast('Não foi possível carregar o visual padrão do servidor. Tentaremos novamente em instantes.', 'error');
+    else $('#avatar-error').hidden = false;
+  }
+  finally {
+    $('#avatar-loading').hidden = true;
+  }
 }
 $('#retry-avatar').addEventListener('click', loadAvatar);
 
@@ -451,6 +455,7 @@ document.addEventListener('visibilitychange', () => {
   } else void checkConnection();
 });
 window.addEventListener('pagehide', () => {
+  appearanceGeneration++;
   clearInterval(healthInterval);
   clearInterval(recordTimer);
   clearTimeout(emotionTimer);
