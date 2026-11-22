@@ -1,0 +1,7883 @@
+{
+  "model": "MO.v2.7",
+  "moc_sha256": "fc98a8156ed265f567b2b63d46c1f4b134c922453f429bd584fcaeec38d7e8dd",
+  "sources": [
+    "frontend/public/MO.v2.7/MO.cdi3.json",
+    "frontend/public/MO.v2.7/MO.physics3.json"
+  ],
+  "note": "Original maker labels/groups and actual physics wiring. Not a calibration of visual effects, selector values or signs.",
+  "parameters": {
+    "Param156": {
+      "original_name": "水印关闭Watermark off",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 5,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param177": {
+      "original_name": "禁止二次转卖",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 10,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param193": {
+      "original_name": "Prohibition of secondary resale",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 15,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param354": {
+      "original_name": "Only sold on Bilibili, Afdian, and VGEN",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 20,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param356": {
+      "original_name": "Others are pirated.",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 25,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param355": {
+      "original_name": "只在 Bilibili, Afdian, VGEN上售卖",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 30,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param357": {
+      "original_name": "其他地方看到均是盗版",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 35,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param23": {
+      "original_name": "▂▂▂▂▂↓头发Hair↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 40,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param352": {
+      "original_name": "肤色 Skin Tone",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 45,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param20": {
+      "original_name": "刘海切换Style of bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 50,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param5": {
+      "original_name": "刘海长度Length of bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 55,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param140": {
+      "original_name": "刘海宽度Width of bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 60,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param103": {
+      "original_name": "刘海R切换Style of right bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 65,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param108": {
+      "original_name": "刘海L切换Style of left bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 70,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param106": {
+      "original_name": "刘海R长度Length of right bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 75,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param107": {
+      "original_name": "刘海L长度Length of left bangs",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 80,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param148": {
+      "original_name": "L发卡Left hairpin",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 85,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param149": {
+      "original_name": "R发卡Right hairpin",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 90,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param102": {
+      "original_name": "L鬓角切换Left Style of temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 95,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param268": {
+      "original_name": "R鬓角切换Right Style of temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 100,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param209": {
+      "original_name": "L翘角 Left Cocked hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 105,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param211": {
+      "original_name": "R翘角 Right Cocked hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 110,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param210": {
+      "original_name": "L翘角位置Position of left Cocked hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 115,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param212": {
+      "original_name": "R翘角位置Position of left Cocked hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 120,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param100": {
+      "original_name": "鬓角L长度Length of left temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 125,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param101": {
+      "original_name": "鬓角R长度Length of right temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 130,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param136": {
+      "original_name": "鬓角L宽度Width of left temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 135,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param135": {
+      "original_name": "鬓角R宽度Width of right temples",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 140,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param19": {
+      "original_name": "呆毛切换Style of ahoge",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 145,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param117": {
+      "original_name": "后发切换Style of back hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 150,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param118": {
+      "original_name": "后发长度外Length of back hair （outer）",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 155,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param127": {
+      "original_name": "后发长度内Length of back hair （inner）",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 160,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param132": {
+      "original_name": "后发变形Shape of back hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 165,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param131": {
+      "original_name": "L辫子Left braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 170,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param134": {
+      "original_name": "R辫子Right braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 175,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param166": {
+      "original_name": "辫子L位置Position of left braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 180,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param133": {
+      "original_name": "辫子R位置Position of right braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 185,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param167": {
+      "original_name": "辫子L长度Length of left braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 190,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param165": {
+      "original_name": "辫子R长度Length of right braid",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 195,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param9": {
+      "original_name": "L发饰 Left hair ornaments",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 200,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param27": {
+      "original_name": "R发饰 Right hair ornaments",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 205,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param194": {
+      "original_name": "挑染streaked hair",
+      "group": {
+        "id": "ParamGroup3",
+        "name": "头发捏"
+      },
+      "cdi_source_line": 210,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param114": {
+      "original_name": "▂▂▂▂▂↓脸Face↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup16",
+        "name": "脸型捏"
+      },
+      "cdi_source_line": 215,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param138": {
+      "original_name": "脸宽窄Face width",
+      "group": {
+        "id": "ParamGroup16",
+        "name": "脸型捏"
+      },
+      "cdi_source_line": 220,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param139": {
+      "original_name": "下巴上下Chin position(up&down)",
+      "group": {
+        "id": "ParamGroup16",
+        "name": "脸型捏"
+      },
+      "cdi_source_line": 225,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param217": {
+      "original_name": "下巴宽窄 Chin width",
+      "group": {
+        "id": "ParamGroup16",
+        "name": "脸型捏"
+      },
+      "cdi_source_line": 230,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param115": {
+      "original_name": "▂▂▂▂▂↓眼睛Eyes↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 235,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param263": {
+      "original_name": "眼形Eye shape",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 240,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param264": {
+      "original_name": "眼形2Eye shape2",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 245,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param265": {
+      "original_name": "眼形3Eye shape3",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 250,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param266": {
+      "original_name": "眼形4Eye shape4",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 255,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param56": {
+      "original_name": "眼睛大小Eye size",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 260,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param86": {
+      "original_name": "眼睛上下Eye position",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 265,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param155": {
+      "original_name": "眼球宽度Eyeball width",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 270,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param41": {
+      "original_name": "睫毛Eyelashes",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 275,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param304": {
+      "original_name": "瞳孔缩小Small pupil",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 280,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param49": {
+      "original_name": "眼（下）Lower eyelid",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 285,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param36": {
+      "original_name": "L瞳孔Left pupil",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 290,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param38": {
+      "original_name": "R瞳孔Right pupil",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 295,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param42": {
+      "original_name": "L白眼Left eyes white",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 300,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param43": {
+      "original_name": "R白眼Right eyes white",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 305,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param7": {
+      "original_name": "L黑眼 Left black eye",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 310,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param8": {
+      "original_name": "R黑眼 Right black eye",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 315,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param55": {
+      "original_name": "L高光Left highlight",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 320,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param178": {
+      "original_name": "R高光Right highlight",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 325,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param189": {
+      "original_name": "高光L位置Position of left highlight",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 330,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param188": {
+      "original_name": "高光R位置Position of right highlight",
+      "group": {
+        "id": "ParamGroup18",
+        "name": "眼睛捏"
+      },
+      "cdi_source_line": 335,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param67": {
+      "original_name": "▂▂▂▂▂↓口鼻Mouth and nose↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 340,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param2": {
+      "original_name": "嘴巴切换Style of ahoge mouth",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 345,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param96": {
+      "original_name": "嘴巴上下Mouth position",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 350,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param97": {
+      "original_name": "嘴巴宽窄Mouth width",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 355,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param6": {
+      "original_name": "鼻子切换Nose shape",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 360,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param87": {
+      "original_name": "鼻子上下Nose position",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 365,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param71": {
+      "original_name": "牙切换(普通嘴)The style of teeth",
+      "group": {
+        "id": "ParamGroup17",
+        "name": "五官捏"
+      },
+      "cdi_source_line": 370,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param110": {
+      "original_name": "▂▂▂▂▂↓眉毛Eyebrows↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup19",
+        "name": "眉毛捏"
+      },
+      "cdi_source_line": 375,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param57": {
+      "original_name": "眉毛样式Eyebrow style",
+      "group": {
+        "id": "ParamGroup19",
+        "name": "眉毛捏"
+      },
+      "cdi_source_line": 380,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param69": {
+      "original_name": "眉毛旋转Eyebrow rotation",
+      "group": {
+        "id": "ParamGroup19",
+        "name": "眉毛捏"
+      },
+      "cdi_source_line": 385,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param81": {
+      "original_name": "眉毛上下Eyebrow position",
+      "group": {
+        "id": "ParamGroup19",
+        "name": "眉毛捏"
+      },
+      "cdi_source_line": 390,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param82": {
+      "original_name": "眉毛宽窄Eyebrow width",
+      "group": {
+        "id": "ParamGroup19",
+        "name": "眉毛捏"
+      },
+      "cdi_source_line": 395,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param143": {
+      "original_name": "▂▂▂▂▂↓痣Moles↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 400,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param72": {
+      "original_name": "痣1Mole 1",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 405,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param141": {
+      "original_name": "1痣X Mole 1 X position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 410,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param142": {
+      "original_name": "1痣Y Mole 1 Y position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 415,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param144": {
+      "original_name": "痣2Mole 2",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 420,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param145": {
+      "original_name": "2痣X Mole 2 X position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 425,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param146": {
+      "original_name": "2痣Y Mole 2 Y position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 430,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param111": {
+      "original_name": "▂▂▂▂▂↓其他脸部Other face↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 435,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param147": {
+      "original_name": "雀斑Freckles",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 440,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param74": {
+      "original_name": "腮红样式Blusher style",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 445,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param187": {
+      "original_name": "腮红上下Blusher position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 450,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param73": {
+      "original_name": "脸上装饰Facial decorations",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 455,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param205": {
+      "original_name": "脸上装饰2 Facial decorations2",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 460,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param153": {
+      "original_name": "眼镜样式Style of glasses",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 465,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param154": {
+      "original_name": "眼镜上下Glasses position",
+      "group": {
+        "id": "ParamGroup9",
+        "name": "脸上捏"
+      },
+      "cdi_source_line": 470,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param243": {
+      "original_name": "▂▂▂▂▂↓愚人节特殊April Fools'Day↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 475,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param226": {
+      "original_name": "我头怎么了?My head?",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 480,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param267": {
+      "original_name": "我克？head eye?",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 485,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param39": {
+      "original_name": "完整的眼睛 A complete eyeball",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 490,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param244": {
+      "original_name": "我嘴呢?Where's my mouth?",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 495,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param245": {
+      "original_name": "我眼睛呢?Where are my eyes?",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 500,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param246": {
+      "original_name": "我眉毛呢?Where are my eyebrows?",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 505,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param116": {
+      "original_name": "▂▂▂▂▂↓其他头部Other head↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 510,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param128": {
+      "original_name": "头上装饰Head decorations",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 515,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param204": {
+      "original_name": "头上装饰2 Head decorations2",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 520,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param262": {
+      "original_name": "头上装饰3 Head decorations3",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 525,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param314": {
+      "original_name": "帽子Hat",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 530,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param208": {
+      "original_name": "头后Behind the head fittings",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 535,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param152": {
+      "original_name": "角Horns",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 540,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param179": {
+      "original_name": "角长度Horn length",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 545,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param": {
+      "original_name": "角2Horn 2",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 550,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param199": {
+      "original_name": "角2长度Horn 2 length",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 555,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param109": {
+      "original_name": "耳朵切换Ear shape",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 560,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param151": {
+      "original_name": "兽耳Animal ears",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 565,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param180": {
+      "original_name": "兽耳长度Length of animal ears",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 570,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param181": {
+      "original_name": "L兽耳位置Position of left animal ear",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 575,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param182": {
+      "original_name": "R兽耳位置Position of right animal ear",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 580,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param130": {
+      "original_name": "特殊部件Special parts",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 585,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param196": {
+      "original_name": "特殊部件2Special parts 2",
+      "group": {
+        "id": "ParamGroup8",
+        "name": "头上捏"
+      },
+      "cdi_source_line": 590,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param129": {
+      "original_name": "▂▂▂▂▂↓身体Body↓▂▂▂▂▂",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 595,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamControllerON": {
+      "original_name": "手切换预览 Style of hand （Preview）",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 600,
+      "drives_physics_settings": [
+        "PhysicsSetting59"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param231"
+      ]
+    },
+    "Param307": {
+      "original_name": "衣服Clothes",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 605,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param308": {
+      "original_name": "脖子Neck",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 610,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param325": {
+      "original_name": "背后 Back",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 615,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param50": {
+      "original_name": "校徽样式Style of emblem",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 620,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param280": {
+      "original_name": "身份牌 Identity plate",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 625,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param319": {
+      "original_name": "校徽X Emblem X",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 630,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param320": {
+      "original_name": "校徽Y Emblem Y",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 635,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param157": {
+      "original_name": "裙子长Skirt length",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 640,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param137": {
+      "original_name": "衣服样式Dressing style",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 645,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param192": {
+      "original_name": "换条裤衩Style of short pants",
+      "group": {
+        "id": "ParamGroup20",
+        "name": "身上捏"
+      },
+      "cdi_source_line": 650,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param34": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 655,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param35": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 660,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param37": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 665,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param40": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 670,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param45": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 675,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param238": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 680,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param232": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 685,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param239": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 690,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param241": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 695,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param240": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 700,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param242": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 705,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param233": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 710,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param237": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 715,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param236": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 720,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param234": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 725,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param235": {
+      "original_name": "███结束辣███That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 730,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param326": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 735,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param337": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 740,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param329": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 745,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param338": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 750,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param327": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 755,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param339": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 760,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param332": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 765,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param340": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 770,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param333": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 775,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param341": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 780,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param330": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 785,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param342": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 790,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param334": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 795,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param343": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 800,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param328": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 805,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param344": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 810,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param335": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 815,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param345": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 820,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param331": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 825,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param346": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 830,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param336": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 835,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param347": {
+      "original_name": "█不要往下了█That's all███",
+      "group": {
+        "id": "",
+        "name": ""
+      },
+      "cdi_source_line": 840,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param28": {
+      "original_name": "1",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 845,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param29": {
+      "original_name": "2",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 850,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param33": {
+      "original_name": "3",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 855,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamAngleX": {
+      "original_name": "角度 X",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 860,
+      "drives_physics_settings": [
+        "PhysicsSetting3",
+        "PhysicsSetting8",
+        "PhysicsSetting13",
+        "PhysicsSetting14",
+        "PhysicsSetting15",
+        "PhysicsSetting16",
+        "PhysicsSetting17",
+        "PhysicsSetting18",
+        "PhysicsSetting20",
+        "PhysicsSetting28",
+        "PhysicsSetting33",
+        "PhysicsSetting34",
+        "PhysicsSetting35",
+        "PhysicsSetting36",
+        "PhysicsSetting37",
+        "PhysicsSetting38",
+        "PhysicsSetting39",
+        "PhysicsSetting40",
+        "PhysicsSetting45",
+        "PhysicsSetting46",
+        "PhysicsSetting47",
+        "PhysicsSetting48",
+        "PhysicsSetting49",
+        "PhysicsSetting50",
+        "PhysicsSetting51",
+        "PhysicsSetting53",
+        "PhysicsSetting54",
+        "PhysicsSetting62",
+        "PhysicsSetting64",
+        "PhysicsSetting66",
+        "PhysicsSetting67",
+        "PhysicsSetting68",
+        "PhysicsSetting69",
+        "PhysicsSetting73"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param112",
+        "Param113",
+        "Param120",
+        "Param14",
+        "Param158",
+        "Param159",
+        "Param160",
+        "Param161",
+        "Param162",
+        "Param163",
+        "Param164",
+        "Param168",
+        "Param169",
+        "Param170",
+        "Param171",
+        "Param172",
+        "Param173",
+        "Param174",
+        "Param175",
+        "Param195",
+        "Param197",
+        "Param198",
+        "Param200",
+        "Param201",
+        "Param206",
+        "Param207",
+        "Param21",
+        "Param22",
+        "Param24",
+        "Param25",
+        "Param26",
+        "Param260",
+        "Param269",
+        "Param270",
+        "Param271",
+        "Param272",
+        "Param273",
+        "Param274",
+        "Param275",
+        "Param276",
+        "Param277",
+        "Param278",
+        "Param279",
+        "Param309",
+        "Param310",
+        "Param312",
+        "Param313",
+        "Param315",
+        "Param316",
+        "Param317",
+        "Param318",
+        "Param321",
+        "Param358",
+        "Param359",
+        "Param46",
+        "Param76",
+        "Param77",
+        "Param79",
+        "Param83",
+        "Param88",
+        "Param89",
+        "Param90",
+        "Param91",
+        "Param92",
+        "Param93",
+        "Param94",
+        "Param95",
+        "ParamBodyAngleX",
+        "ParamHairFront",
+        "ParamHairSide",
+        "ParamHairSide2",
+        "Param_Angle_Rotation122",
+        "Param_Angle_Rotation123",
+        "Param_Angle_Rotation124",
+        "Param_Angle_Rotation126",
+        "Param_Angle_Rotation131",
+        "Param_Angle_Rotation132",
+        "Param_Angle_Rotation133",
+        "Param_Angle_Rotation134",
+        "Param_Angle_Rotation135",
+        "Param_Angle_Rotation136",
+        "Param_Angle_Rotation137",
+        "Param_Angle_Rotation138",
+        "Param_Angle_Rotation139",
+        "Param_Angle_Rotation13a",
+        "Param_Angle_Rotation140",
+        "Param_Angle_Rotation141",
+        "Param_Angle_Rotation142",
+        "Param_Angle_Rotation143",
+        "Param_Angle_Rotation144",
+        "Param_Angle_Rotation145",
+        "Param_Angle_Rotation14a",
+        "Param_Angle_Rotation15a",
+        "Param_Angle_Rotation15b",
+        "Param_Angle_Rotation15v",
+        "Param_Angle_Rotation15w",
+        "Param_Angle_Rotation16b",
+        "Param_Angle_Rotation16v",
+        "Param_Angle_Rotation16w",
+        "Param_Angle_Rotation17b",
+        "Param_Angle_Rotation17v",
+        "Param_Angle_Rotation17w",
+        "Param_Angle_Rotation18b",
+        "Param_Angle_Rotation18q",
+        "Param_Angle_Rotation18v",
+        "Param_Angle_Rotation18w",
+        "Param_Angle_Rotation19",
+        "Param_Angle_Rotation19b",
+        "Param_Angle_Rotation19q",
+        "Param_Angle_Rotation19w",
+        "Param_Angle_Rotation19z",
+        "Param_Angle_Rotation20",
+        "Param_Angle_Rotation20b",
+        "Param_Angle_Rotation20q",
+        "Param_Angle_Rotation20w",
+        "Param_Angle_Rotation20z",
+        "Param_Angle_Rotation21",
+        "Param_Angle_Rotation21b",
+        "Param_Angle_Rotation21q",
+        "Param_Angle_Rotation21w",
+        "Param_Angle_Rotation21z",
+        "Param_Angle_Rotation22",
+        "Param_Angle_Rotation22b",
+        "Param_Angle_Rotation22w",
+        "Param_Angle_Rotation22z",
+        "Param_Angle_Rotation23w",
+        "Param_Angle_Rotation23z",
+        "Param_Angle_Rotation24w",
+        "Param_Angle_Rotation24z",
+        "Param_Angle_Rotation25w",
+        "Param_Angle_Rotation25z",
+        "Param_Angle_Rotation26w",
+        "Param_Angle_Rotation26z",
+        "Param_Angle_Rotation27w",
+        "Param_Angle_Rotation27z",
+        "Param_Angle_Rotation28w",
+        "Param_Angle_Rotation28z",
+        "Param_Angle_Rotation291",
+        "Param_Angle_Rotation29w",
+        "Param_Angle_Rotation301",
+        "Param_Angle_Rotation30w"
+      ]
+    },
+    "ParamAngleY": {
+      "original_name": "角度 Y",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 865,
+      "drives_physics_settings": [
+        "PhysicsSetting4",
+        "PhysicsSetting5",
+        "PhysicsSetting6",
+        "PhysicsSetting8",
+        "PhysicsSetting9",
+        "PhysicsSetting13",
+        "PhysicsSetting14",
+        "PhysicsSetting15",
+        "PhysicsSetting16",
+        "PhysicsSetting17",
+        "PhysicsSetting18",
+        "PhysicsSetting22",
+        "PhysicsSetting28",
+        "PhysicsSetting33",
+        "PhysicsSetting34",
+        "PhysicsSetting35",
+        "PhysicsSetting36",
+        "PhysicsSetting37",
+        "PhysicsSetting38",
+        "PhysicsSetting39",
+        "PhysicsSetting40",
+        "PhysicsSetting45",
+        "PhysicsSetting46",
+        "PhysicsSetting47",
+        "PhysicsSetting48",
+        "PhysicsSetting49",
+        "PhysicsSetting50",
+        "PhysicsSetting51",
+        "PhysicsSetting53",
+        "PhysicsSetting54",
+        "PhysicsSetting62",
+        "PhysicsSetting64",
+        "PhysicsSetting66",
+        "PhysicsSetting67",
+        "PhysicsSetting68",
+        "PhysicsSetting70"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param112",
+        "Param113",
+        "Param120",
+        "Param14",
+        "Param15",
+        "Param150",
+        "Param158",
+        "Param159",
+        "Param16",
+        "Param160",
+        "Param161",
+        "Param162",
+        "Param163",
+        "Param164",
+        "Param168",
+        "Param169",
+        "Param170",
+        "Param171",
+        "Param172",
+        "Param173",
+        "Param174",
+        "Param175",
+        "Param195",
+        "Param197",
+        "Param198",
+        "Param202",
+        "Param203",
+        "Param206",
+        "Param207",
+        "Param21",
+        "Param22",
+        "Param24",
+        "Param25",
+        "Param26",
+        "Param260",
+        "Param269",
+        "Param270",
+        "Param271",
+        "Param272",
+        "Param273",
+        "Param274",
+        "Param275",
+        "Param276",
+        "Param277",
+        "Param278",
+        "Param279",
+        "Param284",
+        "Param309",
+        "Param310",
+        "Param312",
+        "Param313",
+        "Param315",
+        "Param316",
+        "Param317",
+        "Param318",
+        "Param322",
+        "Param46",
+        "Param76",
+        "Param77",
+        "Param79",
+        "Param83",
+        "Param88",
+        "Param89",
+        "Param90",
+        "Param91",
+        "Param92",
+        "Param93",
+        "Param94",
+        "Param95",
+        "ParamBodyAngleY",
+        "ParamHairFront",
+        "ParamHairSide",
+        "ParamHairSide2",
+        "Param_Angle_Rotation122",
+        "Param_Angle_Rotation123",
+        "Param_Angle_Rotation124",
+        "Param_Angle_Rotation126",
+        "Param_Angle_Rotation131",
+        "Param_Angle_Rotation132",
+        "Param_Angle_Rotation133",
+        "Param_Angle_Rotation134",
+        "Param_Angle_Rotation135",
+        "Param_Angle_Rotation136",
+        "Param_Angle_Rotation137",
+        "Param_Angle_Rotation138",
+        "Param_Angle_Rotation139",
+        "Param_Angle_Rotation13a",
+        "Param_Angle_Rotation140",
+        "Param_Angle_Rotation141",
+        "Param_Angle_Rotation142",
+        "Param_Angle_Rotation143",
+        "Param_Angle_Rotation144",
+        "Param_Angle_Rotation145",
+        "Param_Angle_Rotation14a",
+        "Param_Angle_Rotation15a",
+        "Param_Angle_Rotation15b",
+        "Param_Angle_Rotation15v",
+        "Param_Angle_Rotation15w",
+        "Param_Angle_Rotation16b",
+        "Param_Angle_Rotation16v",
+        "Param_Angle_Rotation16w",
+        "Param_Angle_Rotation17b",
+        "Param_Angle_Rotation17v",
+        "Param_Angle_Rotation17w",
+        "Param_Angle_Rotation18b",
+        "Param_Angle_Rotation18q",
+        "Param_Angle_Rotation18v",
+        "Param_Angle_Rotation18w",
+        "Param_Angle_Rotation19",
+        "Param_Angle_Rotation19b",
+        "Param_Angle_Rotation19q",
+        "Param_Angle_Rotation19w",
+        "Param_Angle_Rotation19z",
+        "Param_Angle_Rotation20",
+        "Param_Angle_Rotation20b",
+        "Param_Angle_Rotation20q",
+        "Param_Angle_Rotation20w",
+        "Param_Angle_Rotation20z",
+        "Param_Angle_Rotation21",
+        "Param_Angle_Rotation21b",
+        "Param_Angle_Rotation21q",
+        "Param_Angle_Rotation21w",
+        "Param_Angle_Rotation21z",
+        "Param_Angle_Rotation22",
+        "Param_Angle_Rotation22b",
+        "Param_Angle_Rotation22w",
+        "Param_Angle_Rotation22z",
+        "Param_Angle_Rotation23w",
+        "Param_Angle_Rotation23z",
+        "Param_Angle_Rotation24w",
+        "Param_Angle_Rotation24z",
+        "Param_Angle_Rotation25w",
+        "Param_Angle_Rotation25z",
+        "Param_Angle_Rotation26w",
+        "Param_Angle_Rotation26z",
+        "Param_Angle_Rotation27w",
+        "Param_Angle_Rotation27z",
+        "Param_Angle_Rotation28w",
+        "Param_Angle_Rotation28z",
+        "Param_Angle_Rotation291",
+        "Param_Angle_Rotation29w",
+        "Param_Angle_Rotation301",
+        "Param_Angle_Rotation30w"
+      ]
+    },
+    "ParamAngleZ": {
+      "original_name": "角度 Z",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 870,
+      "drives_physics_settings": [
+        "PhysicsSetting7",
+        "PhysicsSetting8",
+        "PhysicsSetting13",
+        "PhysicsSetting14",
+        "PhysicsSetting15",
+        "PhysicsSetting16",
+        "PhysicsSetting17",
+        "PhysicsSetting18",
+        "PhysicsSetting20",
+        "PhysicsSetting28",
+        "PhysicsSetting33",
+        "PhysicsSetting34",
+        "PhysicsSetting35",
+        "PhysicsSetting36",
+        "PhysicsSetting37",
+        "PhysicsSetting38",
+        "PhysicsSetting39",
+        "PhysicsSetting40",
+        "PhysicsSetting45",
+        "PhysicsSetting46",
+        "PhysicsSetting47",
+        "PhysicsSetting48",
+        "PhysicsSetting49",
+        "PhysicsSetting50",
+        "PhysicsSetting51",
+        "PhysicsSetting53",
+        "PhysicsSetting54",
+        "PhysicsSetting62",
+        "PhysicsSetting64",
+        "PhysicsSetting66",
+        "PhysicsSetting67",
+        "PhysicsSetting68",
+        "PhysicsSetting73"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param112",
+        "Param113",
+        "Param120",
+        "Param14",
+        "Param158",
+        "Param159",
+        "Param160",
+        "Param161",
+        "Param162",
+        "Param163",
+        "Param164",
+        "Param168",
+        "Param169",
+        "Param170",
+        "Param171",
+        "Param172",
+        "Param173",
+        "Param174",
+        "Param175",
+        "Param195",
+        "Param197",
+        "Param198",
+        "Param200",
+        "Param201",
+        "Param206",
+        "Param207",
+        "Param21",
+        "Param22",
+        "Param24",
+        "Param25",
+        "Param26",
+        "Param260",
+        "Param269",
+        "Param270",
+        "Param271",
+        "Param272",
+        "Param273",
+        "Param274",
+        "Param275",
+        "Param276",
+        "Param277",
+        "Param278",
+        "Param279",
+        "Param309",
+        "Param310",
+        "Param312",
+        "Param313",
+        "Param315",
+        "Param316",
+        "Param317",
+        "Param318",
+        "Param358",
+        "Param359",
+        "Param46",
+        "Param76",
+        "Param77",
+        "Param79",
+        "Param83",
+        "Param88",
+        "Param89",
+        "Param90",
+        "Param91",
+        "Param92",
+        "Param93",
+        "Param94",
+        "Param95",
+        "ParamBodyAngleZ",
+        "ParamHairFront",
+        "ParamHairSide",
+        "ParamHairSide2",
+        "Param_Angle_Rotation122",
+        "Param_Angle_Rotation123",
+        "Param_Angle_Rotation124",
+        "Param_Angle_Rotation126",
+        "Param_Angle_Rotation131",
+        "Param_Angle_Rotation132",
+        "Param_Angle_Rotation133",
+        "Param_Angle_Rotation134",
+        "Param_Angle_Rotation135",
+        "Param_Angle_Rotation136",
+        "Param_Angle_Rotation137",
+        "Param_Angle_Rotation138",
+        "Param_Angle_Rotation139",
+        "Param_Angle_Rotation13a",
+        "Param_Angle_Rotation140",
+        "Param_Angle_Rotation141",
+        "Param_Angle_Rotation142",
+        "Param_Angle_Rotation143",
+        "Param_Angle_Rotation144",
+        "Param_Angle_Rotation145",
+        "Param_Angle_Rotation14a",
+        "Param_Angle_Rotation15a",
+        "Param_Angle_Rotation15b",
+        "Param_Angle_Rotation15v",
+        "Param_Angle_Rotation15w",
+        "Param_Angle_Rotation16b",
+        "Param_Angle_Rotation16v",
+        "Param_Angle_Rotation16w",
+        "Param_Angle_Rotation17b",
+        "Param_Angle_Rotation17v",
+        "Param_Angle_Rotation17w",
+        "Param_Angle_Rotation18b",
+        "Param_Angle_Rotation18q",
+        "Param_Angle_Rotation18v",
+        "Param_Angle_Rotation18w",
+        "Param_Angle_Rotation19",
+        "Param_Angle_Rotation19b",
+        "Param_Angle_Rotation19q",
+        "Param_Angle_Rotation19w",
+        "Param_Angle_Rotation19z",
+        "Param_Angle_Rotation20",
+        "Param_Angle_Rotation20b",
+        "Param_Angle_Rotation20q",
+        "Param_Angle_Rotation20w",
+        "Param_Angle_Rotation20z",
+        "Param_Angle_Rotation21",
+        "Param_Angle_Rotation21b",
+        "Param_Angle_Rotation21q",
+        "Param_Angle_Rotation21w",
+        "Param_Angle_Rotation21z",
+        "Param_Angle_Rotation22",
+        "Param_Angle_Rotation22b",
+        "Param_Angle_Rotation22w",
+        "Param_Angle_Rotation22z",
+        "Param_Angle_Rotation23w",
+        "Param_Angle_Rotation23z",
+        "Param_Angle_Rotation24w",
+        "Param_Angle_Rotation24z",
+        "Param_Angle_Rotation25w",
+        "Param_Angle_Rotation25z",
+        "Param_Angle_Rotation26w",
+        "Param_Angle_Rotation26z",
+        "Param_Angle_Rotation27w",
+        "Param_Angle_Rotation27z",
+        "Param_Angle_Rotation28w",
+        "Param_Angle_Rotation28z",
+        "Param_Angle_Rotation291",
+        "Param_Angle_Rotation29w",
+        "Param_Angle_Rotation301",
+        "Param_Angle_Rotation30w"
+      ]
+    },
+    "ParamBrowLY": {
+      "original_name": "左眉上下",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 875,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamBrowRY": {
+      "original_name": "右眉　上下",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 880,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamBrowRForm": {
+      "original_name": "右眉　変形",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 885,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamBrowLForm": {
+      "original_name": "左眉　変形",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 890,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param47": {
+      "original_name": "眉毛形状",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 895,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param70": {
+      "original_name": "脸距",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 900,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "zuoyou": {
+      "original_name": "左右",
+      "group": {
+        "id": "ParamGroup10",
+        "name": "头九轴"
+      },
+      "cdi_source_line": 905,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param223": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 910,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param218": {
+      "original_name": "呼出",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 915,
+      "drives_physics_settings": [
+        "PhysicsSetting58",
+        "PhysicsSetting61"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param227",
+        "Param257"
+      ]
+    },
+    "Param249": {
+      "original_name": "呼吸数字",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 920,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting60"
+      ],
+      "physics_sources": [
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param247": {
+      "original_name": "二级菜单，手势",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 925,
+      "drives_physics_settings": [
+        "PhysicsSetting61"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param257"
+      ]
+    },
+    "Param248": {
+      "original_name": "二级菜单，表情",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 930,
+      "drives_physics_settings": [
+        "PhysicsSetting61"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param257"
+      ]
+    },
+    "Param257": {
+      "original_name": "轮盘旋转物理",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 935,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting61"
+      ],
+      "physics_sources": [
+        "Param218",
+        "Param247",
+        "Param248"
+      ],
+      "physics_targets": []
+    },
+    "Param224": {
+      "original_name": "轮盘x",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 940,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting55"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX"
+      ],
+      "physics_targets": []
+    },
+    "Param225": {
+      "original_name": "轮盘y",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 945,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting57"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param227": {
+      "original_name": "轮盘物理",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 950,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting58"
+      ],
+      "physics_sources": [
+        "Param218",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param231": {
+      "original_name": "物理显示",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 955,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting59"
+      ],
+      "physics_sources": [
+        "ParamControllerON"
+      ],
+      "physics_targets": []
+    },
+    "Param219": {
+      "original_name": "举起的",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 960,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param220": {
+      "original_name": "画画",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 965,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param221": {
+      "original_name": "唱歌",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 970,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param222": {
+      "original_name": "手柄",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 975,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param282": {
+      "original_name": "键鼠",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 980,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param283": {
+      "original_name": "相框",
+      "group": {
+        "id": "ParamGroup42",
+        "name": "轮盘手"
+      },
+      "cdi_source_line": 985,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param289": {
+      "original_name": "R",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 990,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param295": {
+      "original_name": "E",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 995,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param290": {
+      "original_name": "W",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1000,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param296": {
+      "original_name": "Q",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1005,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param291": {
+      "original_name": "F",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1010,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param297": {
+      "original_name": "D",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1015,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param292": {
+      "original_name": "S",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1020,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param298": {
+      "original_name": "A",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1025,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param294": {
+      "original_name": "空格",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1030,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param299": {
+      "original_name": "Z",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1035,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param293": {
+      "original_name": "ctrl",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1040,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param305": {
+      "original_name": "键盘x",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1045,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param306": {
+      "original_name": "键盘y",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1050,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param300": {
+      "original_name": "鼠标按下",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1055,
+      "drives_physics_settings": [
+        "PhysicsSetting63"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param285"
+      ]
+    },
+    "Param285": {
+      "original_name": "按下特效",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1060,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting63"
+      ],
+      "physics_sources": [
+        "Param300"
+      ],
+      "physics_targets": []
+    },
+    "Param301": {
+      "original_name": "鼠标x",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1065,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param302": {
+      "original_name": "鼠标y",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1070,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param303": {
+      "original_name": "音量",
+      "group": {
+        "id": "ParamGroup53",
+        "name": "键盘手"
+      },
+      "cdi_source_line": 1075,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param260": {
+      "original_name": "表情物理",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1080,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting62"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param250": {
+      "original_name": "问号",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1085,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param254": {
+      "original_name": "。。。",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1090,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param251": {
+      "original_name": "流汗",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1095,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param255": {
+      "original_name": "爱心",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1100,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param252": {
+      "original_name": "生气",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1105,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param256": {
+      "original_name": "无语",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1110,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param258": {
+      "original_name": "星星",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1115,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param259": {
+      "original_name": "鬼火",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1120,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param253": {
+      "original_name": "锁2",
+      "group": {
+        "id": "ParamGroup44",
+        "name": "表情"
+      },
+      "cdi_source_line": 1125,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param51": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1130,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamEyeLOpen": {
+      "original_name": "左眼　开闭",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1135,
+      "drives_physics_settings": [
+        "PhysicsSetting1",
+        "PhysicsSetting23",
+        "PhysicsSetting33",
+        "PhysicsSetting43"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param184",
+        "Param3",
+        "Param30",
+        "Param88",
+        "Param89",
+        "Param90",
+        "Param92"
+      ]
+    },
+    "Param184": {
+      "original_name": "痣左眼开闭",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1140,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting43"
+      ],
+      "physics_sources": [
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "ParamEyeROpen": {
+      "original_name": "右眼",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1145,
+      "drives_physics_settings": [
+        "PhysicsSetting2",
+        "PhysicsSetting24",
+        "PhysicsSetting34",
+        "PhysicsSetting41"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param185",
+        "Param31",
+        "Param4",
+        "Param91",
+        "Param93",
+        "Param94",
+        "Param95"
+      ]
+    },
+    "Param185": {
+      "original_name": "痣右眼开闭",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1150,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting41"
+      ],
+      "physics_sources": [
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "ParamEyeBallX": {
+      "original_name": "眼球 X",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1155,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamEyeBallY": {
+      "original_name": "眼球 Y",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1160,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamEyeLSmile": {
+      "original_name": "左眼　微笑",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1165,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting11"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param190": {
+      "original_name": "微笑L",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1170,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting11"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "ParamEyeRSmile": {
+      "original_name": "右眼　微笑",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1175,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting11"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param191": {
+      "original_name": "微笑R",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1180,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting11"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param17": {
+      "original_name": "怒",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1185,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting10"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param18": {
+      "original_name": "右眼怒",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1190,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting10"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param30": {
+      "original_name": "左眼皮",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1195,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting23"
+      ],
+      "physics_sources": [
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param31": {
+      "original_name": "右眼皮",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1200,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting24"
+      ],
+      "physics_sources": [
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "Param48": {
+      "original_name": "大眼",
+      "group": {
+        "id": "ParamGroup11",
+        "name": "眼睛"
+      },
+      "cdi_source_line": 1205,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param286": {
+      "original_name": "鬼火x",
+      "group": {
+        "id": "ParamGroup52",
+        "name": "鬼火"
+      },
+      "cdi_source_line": 1210,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting56"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX"
+      ],
+      "physics_targets": []
+    },
+    "Param288": {
+      "original_name": "鬼火y",
+      "group": {
+        "id": "ParamGroup52",
+        "name": "鬼火"
+      },
+      "cdi_source_line": 1215,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param287": {
+      "original_name": "鬼火z",
+      "group": {
+        "id": "ParamGroup52",
+        "name": "鬼火"
+      },
+      "cdi_source_line": 1220,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting56"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX"
+      ],
+      "physics_targets": []
+    },
+    "Param52": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1225,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamMouthForm": {
+      "original_name": "嘴部　变形",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1230,
+      "drives_physics_settings": [
+        "PhysicsSetting10",
+        "PhysicsSetting11",
+        "PhysicsSetting42"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param17",
+        "Param18",
+        "Param186",
+        "Param190",
+        "Param191",
+        "ParamEyeLSmile",
+        "ParamEyeRSmile"
+      ]
+    },
+    "ParamMouthOpenY": {
+      "original_name": "嘴巴　张开和闭合",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1235,
+      "drives_physics_settings": [
+        "PhysicsSetting12",
+        "PhysicsSetting44"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param183",
+        "Param353"
+      ]
+    },
+    "Param281": {
+      "original_name": "参数413",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1240,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param353": {
+      "original_name": "张嘴融合变形",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1245,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting12"
+      ],
+      "physics_sources": [
+        "ParamMouthOpenY"
+      ],
+      "physics_targets": []
+    },
+    "Param186": {
+      "original_name": "痣嘴巴变形",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1250,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting42"
+      ],
+      "physics_sources": [
+        "ParamMouthForm"
+      ],
+      "physics_targets": []
+    },
+    "Param183": {
+      "original_name": "痣嘴巴开合",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1255,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting44"
+      ],
+      "physics_sources": [
+        "ParamMouthOpenY"
+      ],
+      "physics_targets": []
+    },
+    "Param122": {
+      "original_name": "歪嘴",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1260,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param123": {
+      "original_name": "widen 嘴寬",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1265,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param124": {
+      "original_name": "srugh 收下巴",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1270,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param125": {
+      "original_name": "jaw 突下巴",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1275,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param126": {
+      "original_name": "鼓嘴",
+      "group": {
+        "id": "ParamGroup7",
+        "name": "嘴巴"
+      },
+      "cdi_source_line": 1280,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param58": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup",
+        "name": "gg"
+      },
+      "cdi_source_line": 1285,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param261": {
+      "original_name": "呼吸物理参数",
+      "group": {
+        "id": "ParamGroup",
+        "name": "gg"
+      },
+      "cdi_source_line": 1290,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting27"
+      ],
+      "physics_sources": [
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param3": {
+      "original_name": "左瞳孔",
+      "group": {
+        "id": "ParamGroup",
+        "name": "gg"
+      },
+      "cdi_source_line": 1295,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting1"
+      ],
+      "physics_sources": [
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param4": {
+      "original_name": "右瞳孔",
+      "group": {
+        "id": "ParamGroup",
+        "name": "gg"
+      },
+      "cdi_source_line": 1300,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting2"
+      ],
+      "physics_sources": [
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "_____________": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1305,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "________________": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1310,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_RS_X": {
+      "original_name": "Xbox_RS_X",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1315,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "Xbox_RS_Y": {
+      "original_name": "Xbox_RS_Y",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1320,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_RS_B": {
+      "original_name": "Xbox_RS_B",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1325,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "Xbox_RB": {
+      "original_name": "Xbox_RB",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1330,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_RT": {
+      "original_name": "FP_RT",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1335,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_RT": {
+      "original_name": "Xbox_RT",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1340,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_A": {
+      "original_name": "FP_A",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1345,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_A": {
+      "original_name": "Xbox_A",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1350,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_B": {
+      "original_name": "FP_B",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1355,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_B": {
+      "original_name": "Xbox_B",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1360,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_X": {
+      "original_name": "FP_X",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1365,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_X": {
+      "original_name": "Xbox_X",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1370,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_Y": {
+      "original_name": "FP_Y",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1375,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_Y": {
+      "original_name": "Xbox_Y",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1380,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "______________": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1385,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_LS_X": {
+      "original_name": "Xbox_LS_X",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1390,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "Xbox_LS_Y": {
+      "original_name": "Xbox_LS_Y",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1395,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_LS_B": {
+      "original_name": "Xbox_LS_B",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1400,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "Xbox_LB": {
+      "original_name": "Xbox_LB",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1405,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_LT": {
+      "original_name": "FP_LT",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1410,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_LT": {
+      "original_name": "Xbox_LT",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1415,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_Dpad_Up": {
+      "original_name": "FP_Dpad_Up",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1420,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_Dpad_Up": {
+      "original_name": "Xbox_Dpad_Up",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1425,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_Dpad_Down": {
+      "original_name": "FP_Dpad_Down",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1430,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_Dpad_Down": {
+      "original_name": "Xbox_Dpad_Down",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1435,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_Dpad_Left": {
+      "original_name": "FP_Dpad_Left",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1440,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_Dpad_Left": {
+      "original_name": "Xbox_Dpad_Left",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1445,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "FP_Dpad_Right": {
+      "original_name": "FP_Dpad_Right",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1450,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Xbox_Dpad_Right": {
+      "original_name": "Xbox_Dpad_Right",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1455,
+      "drives_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Paramlr"
+      ]
+    },
+    "_______________": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1460,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Paramlr": {
+      "original_name": "两侧按下",
+      "group": {
+        "id": "ParamGroup39",
+        "name": "手柄"
+      },
+      "cdi_source_line": 1465,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting52"
+      ],
+      "physics_sources": [
+        "Xbox_A",
+        "Xbox_B",
+        "Xbox_Dpad_Down",
+        "Xbox_Dpad_Left",
+        "Xbox_Dpad_Right",
+        "Xbox_Dpad_Up",
+        "Xbox_LB",
+        "Xbox_LS_B",
+        "Xbox_LS_X",
+        "Xbox_LT",
+        "Xbox_RB",
+        "Xbox_RS_B",
+        "Xbox_RS_X",
+        "Xbox_RT",
+        "Xbox_X",
+        "Xbox_Y"
+      ],
+      "physics_targets": []
+    },
+    "Param59": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1470,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param10": {
+      "original_name": "zop1",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1475,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting19"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param11": {
+      "original_name": "zop2",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1480,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting19"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param12": {
+      "original_name": "yop1",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1485,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting21"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param13": {
+      "original_name": "yop2",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1490,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting21"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param44": {
+      "original_name": "yop1",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1495,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param80": {
+      "original_name": "yop2",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1500,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param200": {
+      "original_name": "团子x1",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1505,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting20"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param201": {
+      "original_name": "团子x2",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1510,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting20"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param202": {
+      "original_name": "团子y1",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1515,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting22"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param203": {
+      "original_name": "团子y2",
+      "group": {
+        "id": "ParamGroup12",
+        "name": "op"
+      },
+      "cdi_source_line": 1520,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting22"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param60": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1525,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param88": {
+      "original_name": "左耳x",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1530,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting33"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param90": {
+      "original_name": "左耳z",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1535,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting33"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param89": {
+      "original_name": "左耳物理1",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1540,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting33"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param92": {
+      "original_name": "左耳物理2",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1545,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting33"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeLOpen"
+      ],
+      "physics_targets": []
+    },
+    "Param91": {
+      "original_name": "右耳x",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1550,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting34"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "Param93": {
+      "original_name": "右耳z",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1555,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting34"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "Param94": {
+      "original_name": "右耳物理1",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1560,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting34"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "Param95": {
+      "original_name": "右耳物理2",
+      "group": {
+        "id": "ParamGroup6",
+        "name": "貓耳"
+      },
+      "cdi_source_line": 1565,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting34"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamEyeROpen"
+      ],
+      "physics_targets": []
+    },
+    "Param323": {
+      "original_name": "翅膀z",
+      "group": {
+        "id": "ParamGroup55",
+        "name": "翅膀"
+      },
+      "cdi_source_line": 1570,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param324": {
+      "original_name": "翅膀x2",
+      "group": {
+        "id": "ParamGroup55",
+        "name": "翅膀"
+      },
+      "cdi_source_line": 1575,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param229": {
+      "original_name": "抬手手",
+      "group": {
+        "id": "ParamGroup43",
+        "name": "抬手"
+      },
+      "cdi_source_line": 1580,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting32"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param228": {
+      "original_name": "抬手手臂",
+      "group": {
+        "id": "ParamGroup43",
+        "name": "抬手"
+      },
+      "cdi_source_line": 1585,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting32"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param230": {
+      "original_name": "抬手手腕",
+      "group": {
+        "id": "ParamGroup43",
+        "name": "抬手"
+      },
+      "cdi_source_line": 1590,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting32"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param213": {
+      "original_name": "画画手x",
+      "group": {
+        "id": "ParamGroup41",
+        "name": "画画手"
+      },
+      "cdi_source_line": 1595,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param214": {
+      "original_name": "画画手y",
+      "group": {
+        "id": "ParamGroup41",
+        "name": "画画手"
+      },
+      "cdi_source_line": 1600,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param216": {
+      "original_name": "笔按下",
+      "group": {
+        "id": "ParamGroup41",
+        "name": "画画手"
+      },
+      "cdi_source_line": 1605,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param284": {
+      "original_name": "相框y物理",
+      "group": {
+        "id": "ParamGroup50",
+        "name": "相框手"
+      },
+      "cdi_source_line": 1610,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting5"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param215": {
+      "original_name": "唱歌肩膀",
+      "group": {
+        "id": "ParamGroup40",
+        "name": "唱歌手"
+      },
+      "cdi_source_line": 1615,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting31"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param121": {
+      "original_name": "唱歌手臂",
+      "group": {
+        "id": "ParamGroup40",
+        "name": "唱歌手"
+      },
+      "cdi_source_line": 1620,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting31"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param176": {
+      "original_name": "唱歌手腕",
+      "group": {
+        "id": "ParamGroup40",
+        "name": "唱歌手"
+      },
+      "cdi_source_line": 1625,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting31"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "VoiceVolume": {
+      "original_name": "VoiceVolume",
+      "group": {
+        "id": "ParamGroup40",
+        "name": "唱歌手"
+      },
+      "cdi_source_line": 1630,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "VoiceFrequency": {
+      "original_name": "VoiceFrequency",
+      "group": {
+        "id": "ParamGroup40",
+        "name": "唱歌手"
+      },
+      "cdi_source_line": 1635,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param65": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1640,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamBodyAngleX": {
+      "original_name": "身体旋转　X",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1645,
+      "drives_physics_settings": [
+        "PhysicsSetting19",
+        "PhysicsSetting25",
+        "PhysicsSetting29",
+        "PhysicsSetting30",
+        "PhysicsSetting31",
+        "PhysicsSetting32",
+        "PhysicsSetting55",
+        "PhysicsSetting56",
+        "PhysicsSetting65",
+        "PhysicsSetting71",
+        "PhysicsSetting72"
+      ],
+      "written_by_physics_settings": [
+        "PhysicsSetting3"
+      ],
+      "physics_sources": [
+        "ParamAngleX"
+      ],
+      "physics_targets": [
+        "Param10",
+        "Param104",
+        "Param11",
+        "Param121",
+        "Param176",
+        "Param215",
+        "Param224",
+        "Param228",
+        "Param229",
+        "Param230",
+        "Param286",
+        "Param287",
+        "Param311",
+        "Param348",
+        "Param349",
+        "Param350",
+        "Param351",
+        "Param360",
+        "Param361",
+        "Param61",
+        "Param62",
+        "Param63",
+        "Param64",
+        "Param84",
+        "Param85",
+        "Param98"
+      ]
+    },
+    "ParamBodyAngleY": {
+      "original_name": "身体旋转　Y",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1650,
+      "drives_physics_settings": [
+        "PhysicsSetting21",
+        "PhysicsSetting26",
+        "PhysicsSetting29",
+        "PhysicsSetting30",
+        "PhysicsSetting31",
+        "PhysicsSetting32",
+        "PhysicsSetting57",
+        "PhysicsSetting65",
+        "PhysicsSetting71",
+        "PhysicsSetting72"
+      ],
+      "written_by_physics_settings": [
+        "PhysicsSetting4"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": [
+        "Param104",
+        "Param12",
+        "Param121",
+        "Param13",
+        "Param176",
+        "Param215",
+        "Param225",
+        "Param228",
+        "Param229",
+        "Param230",
+        "Param311",
+        "Param348",
+        "Param349",
+        "Param350",
+        "Param351",
+        "Param53",
+        "Param54",
+        "Param61",
+        "Param62",
+        "Param63",
+        "Param64",
+        "Param98"
+      ]
+    },
+    "Param150": {
+      "original_name": "y",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1655,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting6"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "ParamBodyAngleZ": {
+      "original_name": "身体旋转　Z",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1660,
+      "drives_physics_settings": [
+        "PhysicsSetting19",
+        "PhysicsSetting25",
+        "PhysicsSetting29",
+        "PhysicsSetting30",
+        "PhysicsSetting31",
+        "PhysicsSetting32",
+        "PhysicsSetting65",
+        "PhysicsSetting71",
+        "PhysicsSetting72"
+      ],
+      "written_by_physics_settings": [
+        "PhysicsSetting7"
+      ],
+      "physics_sources": [
+        "ParamAngleZ"
+      ],
+      "physics_targets": [
+        "Param10",
+        "Param104",
+        "Param11",
+        "Param121",
+        "Param176",
+        "Param215",
+        "Param228",
+        "Param229",
+        "Param230",
+        "Param311",
+        "Param348",
+        "Param349",
+        "Param350",
+        "Param351",
+        "Param360",
+        "Param361",
+        "Param61",
+        "Param62",
+        "Param63",
+        "Param64",
+        "Param84",
+        "Param85",
+        "Param98"
+      ]
+    },
+    "Param32": {
+      "original_name": "z2",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1665,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamBreath": {
+      "original_name": "呼吸",
+      "group": {
+        "id": "ParamGroup13",
+        "name": "身体"
+      },
+      "cdi_source_line": 1670,
+      "drives_physics_settings": [
+        "PhysicsSetting27",
+        "PhysicsSetting29",
+        "PhysicsSetting30",
+        "PhysicsSetting58",
+        "PhysicsSetting60"
+      ],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": [
+        "Param104",
+        "Param227",
+        "Param249",
+        "Param261",
+        "Param61",
+        "Param62",
+        "Param63",
+        "Param64",
+        "Param98"
+      ]
+    },
+    "Param61": {
+      "original_name": "左手",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1675,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting30"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param63": {
+      "original_name": "左手旋轉",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1680,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting30"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param98": {
+      "original_name": "左手变形",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1685,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting30"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param99": {
+      "original_name": "左手变形2",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1690,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param62": {
+      "original_name": "右手",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1695,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting29"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param64": {
+      "original_name": "右手旋轉",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1700,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting29"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param104": {
+      "original_name": "右手变形1",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1705,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting29"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "physics_targets": []
+    },
+    "Param105": {
+      "original_name": "右手变形2",
+      "group": {
+        "id": "ParamGroup4",
+        "name": "手"
+      },
+      "cdi_source_line": 1710,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param66": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1715,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamHairFront": {
+      "original_name": "摇动　前发",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1720,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting8"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param14": {
+      "original_name": "前发2",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1725,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting8"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param75": {
+      "original_name": "前发3",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1730,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param119": {
+      "original_name": "前发4",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1735,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param15": {
+      "original_name": "前发y1",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1740,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting9"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param16": {
+      "original_name": "前发y2",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1745,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting9"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param76": {
+      "original_name": "呆毛1",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1750,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting28"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param77": {
+      "original_name": "呆毛2",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1755,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting28"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param158": {
+      "original_name": "啾啾1",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1760,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting35"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param159": {
+      "original_name": "啾啾2",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1765,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting35"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param160": {
+      "original_name": "啾啾3",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1770,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting35"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param161": {
+      "original_name": "啾啾11",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1775,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting36"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param174": {
+      "original_name": "啾啾22",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1780,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting36"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param175": {
+      "original_name": "啾啾33",
+      "group": {
+        "id": "ParamGroup14",
+        "name": "前发"
+      },
+      "cdi_source_line": 1785,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting36"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param68": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1790,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param358": {
+      "original_name": "喀秋莎x1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1795,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting73"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param359": {
+      "original_name": "喀秋莎x2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1800,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting73"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param84": {
+      "original_name": "裙子x",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1805,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting25"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param85": {
+      "original_name": "裙子x2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1810,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting25"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param360": {
+      "original_name": "裙子x",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1815,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting25"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param361": {
+      "original_name": "裙子x2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1820,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting25"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param53": {
+      "original_name": "裙子y1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1825,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting26"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param54": {
+      "original_name": "裙子y2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1830,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting26"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param112": {
+      "original_name": "蝴蝶结l1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1835,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting48"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param113": {
+      "original_name": "蝴蝶结l2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1840,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting48"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param206": {
+      "original_name": "蝴蝶结r1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1845,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting49"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param207": {
+      "original_name": "蝴蝶结r2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1850,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting49"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param195": {
+      "original_name": "灯泡左右",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1855,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting46"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param197": {
+      "original_name": "符咒1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1860,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting47"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param198": {
+      "original_name": "符咒2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1865,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting47"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param46": {
+      "original_name": "r发饰1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1870,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting53"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param79": {
+      "original_name": "r发饰2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1875,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting53"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param83": {
+      "original_name": "l发饰1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1880,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting54"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param120": {
+      "original_name": "l发饰2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1885,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting54"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param269": {
+      "original_name": "蝴蝶结l",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1890,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting48"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param270": {
+      "original_name": "蝴蝶结r",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1895,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting49"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param275": {
+      "original_name": "蝴蝶及l角1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1900,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting51"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param276": {
+      "original_name": "蝴蝶结l角2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1905,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting51"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param271": {
+      "original_name": "蝴蝶及r角1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1910,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting50"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param272": {
+      "original_name": "蝴蝶结r角2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1915,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting50"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param309": {
+      "original_name": "围巾1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1920,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting64"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param310": {
+      "original_name": "围巾2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1925,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting64"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param311": {
+      "original_name": "铃铛",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1930,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting65"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param312": {
+      "original_name": "圣诞帽1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1935,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting66"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param313": {
+      "original_name": "圣诞帽2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1940,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting66"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param315": {
+      "original_name": "2.3后发1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1945,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting67"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param316": {
+      "original_name": "2.3后发2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1950,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting67"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param317": {
+      "original_name": "2.3后发1",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1955,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting68"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param318": {
+      "original_name": "2.3后发2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1960,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting68"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param321": {
+      "original_name": "环x",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1965,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting69"
+      ],
+      "physics_sources": [
+        "ParamAngleX"
+      ],
+      "physics_targets": []
+    },
+    "Param322": {
+      "original_name": "环y",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1970,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting70"
+      ],
+      "physics_sources": [
+        "ParamAngleY"
+      ],
+      "physics_targets": []
+    },
+    "Param348": {
+      "original_name": "绳子l",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1975,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting71"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param349": {
+      "original_name": "绳子l2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1980,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting71"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param350": {
+      "original_name": "绳子r",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1985,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting72"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param351": {
+      "original_name": "绳子r2",
+      "group": {
+        "id": "ParamGroup5",
+        "name": "饰品"
+      },
+      "cdi_source_line": 1990,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting72"
+      ],
+      "physics_sources": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param78": {
+      "original_name": "████████",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 1995,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "ParamHairSide": {
+      "original_name": "左侧发1",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2000,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting13"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param21": {
+      "original_name": "左侧发2",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2005,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting13"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param22": {
+      "original_name": "左侧发3",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2010,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting13"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param24": {
+      "original_name": "右侧发1",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2015,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting16"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param25": {
+      "original_name": "右侧发2",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2020,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting16"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param26": {
+      "original_name": "右侧发3",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2025,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting16"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "ParamHairSide2": {
+      "original_name": "左侧发11",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2030,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting14"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param273": {
+      "original_name": "左侧发22",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2035,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting14"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param274": {
+      "original_name": "左侧发33",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2040,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting14"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param277": {
+      "original_name": "右侧发11",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2045,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting15"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param278": {
+      "original_name": "右侧发22",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2050,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting15"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param279": {
+      "original_name": "右侧发33",
+      "group": {
+        "id": "ParamGroup15",
+        "name": "侧发"
+      },
+      "cdi_source_line": 2055,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting15"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation6a": {
+      "original_name": "[1]右手2",
+      "group": {
+        "id": "ParamGroup21",
+        "name": "右手2"
+      },
+      "cdi_source_line": 2060,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation7a": {
+      "original_name": "[2]右手2",
+      "group": {
+        "id": "ParamGroup21",
+        "name": "右手2"
+      },
+      "cdi_source_line": 2065,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation9a": {
+      "original_name": "[1]左手2",
+      "group": {
+        "id": "ParamGroup22",
+        "name": "左手2"
+      },
+      "cdi_source_line": 2070,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation10a": {
+      "original_name": "[2]左手2",
+      "group": {
+        "id": "ParamGroup22",
+        "name": "左手2"
+      },
+      "cdi_source_line": 2075,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [],
+      "physics_sources": [],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation13a": {
+      "original_name": "[0]辫子1",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2080,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation14a": {
+      "original_name": "[1]辫子1",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2085,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation15a": {
+      "original_name": "[2]辫子1",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2090,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param168": {
+      "original_name": "辫子02",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2095,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param169": {
+      "original_name": "辫子12",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2100,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param170": {
+      "original_name": "辫子22",
+      "group": {
+        "id": "ParamGroup23",
+        "name": "辫子1"
+      },
+      "cdi_source_line": 2105,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param162": {
+      "original_name": "小辫1",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2110,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param163": {
+      "original_name": "小辫2",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2115,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param164": {
+      "original_name": "小辫3",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2120,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting37"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param171": {
+      "original_name": "小辫11",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2125,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param172": {
+      "original_name": "小辫22",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2130,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param173": {
+      "original_name": "小辫33",
+      "group": {
+        "id": "ParamGroup24",
+        "name": "小辫l"
+      },
+      "cdi_source_line": 2135,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting38"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation15b": {
+      "original_name": "[0]麻花r",
+      "group": {
+        "id": "ParamGroup25",
+        "name": "麻花r"
+      },
+      "cdi_source_line": 2140,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting39"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation16b": {
+      "original_name": "[1]麻花r",
+      "group": {
+        "id": "ParamGroup25",
+        "name": "麻花r"
+      },
+      "cdi_source_line": 2145,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting39"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation17b": {
+      "original_name": "[2]麻花r",
+      "group": {
+        "id": "ParamGroup25",
+        "name": "麻花r"
+      },
+      "cdi_source_line": 2150,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting39"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation21b": {
+      "original_name": "[3]麻花r",
+      "group": {
+        "id": "ParamGroup25",
+        "name": "麻花r"
+      },
+      "cdi_source_line": 2155,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting39"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation18b": {
+      "original_name": "[0]麻花l",
+      "group": {
+        "id": "ParamGroup26",
+        "name": "麻花l"
+      },
+      "cdi_source_line": 2160,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting40"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation19b": {
+      "original_name": "[1]麻花l",
+      "group": {
+        "id": "ParamGroup26",
+        "name": "麻花l"
+      },
+      "cdi_source_line": 2165,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting40"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation20b": {
+      "original_name": "[2]麻花l",
+      "group": {
+        "id": "ParamGroup26",
+        "name": "麻花l"
+      },
+      "cdi_source_line": 2170,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting40"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation22b": {
+      "original_name": "[3]麻花l",
+      "group": {
+        "id": "ParamGroup26",
+        "name": "麻花l"
+      },
+      "cdi_source_line": 2175,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting40"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation15v": {
+      "original_name": "[0]后发1",
+      "group": {
+        "id": "ParamGroup27",
+        "name": "后发1"
+      },
+      "cdi_source_line": 2180,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation16v": {
+      "original_name": "[1]后发1",
+      "group": {
+        "id": "ParamGroup27",
+        "name": "后发1"
+      },
+      "cdi_source_line": 2185,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation17v": {
+      "original_name": "[2]后发1",
+      "group": {
+        "id": "ParamGroup27",
+        "name": "后发1"
+      },
+      "cdi_source_line": 2190,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation18v": {
+      "original_name": "[3]后发1",
+      "group": {
+        "id": "ParamGroup27",
+        "name": "后发1"
+      },
+      "cdi_source_line": 2195,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation15w": {
+      "original_name": "[0]后发2",
+      "group": {
+        "id": "ParamGroup28",
+        "name": "后发2"
+      },
+      "cdi_source_line": 2200,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation16w": {
+      "original_name": "[1]后发2",
+      "group": {
+        "id": "ParamGroup28",
+        "name": "后发2"
+      },
+      "cdi_source_line": 2205,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation17w": {
+      "original_name": "[2]后发2",
+      "group": {
+        "id": "ParamGroup28",
+        "name": "后发2"
+      },
+      "cdi_source_line": 2210,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation18w": {
+      "original_name": "[3]后发2",
+      "group": {
+        "id": "ParamGroup28",
+        "name": "后发2"
+      },
+      "cdi_source_line": 2215,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation19w": {
+      "original_name": "[0]后发1.5",
+      "group": {
+        "id": "ParamGroup30",
+        "name": "后发1.5"
+      },
+      "cdi_source_line": 2220,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation20w": {
+      "original_name": "[1]后发1.5",
+      "group": {
+        "id": "ParamGroup30",
+        "name": "后发1.5"
+      },
+      "cdi_source_line": 2225,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation21w": {
+      "original_name": "[2]后发1.5",
+      "group": {
+        "id": "ParamGroup30",
+        "name": "后发1.5"
+      },
+      "cdi_source_line": 2230,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation22w": {
+      "original_name": "[3]后发1.5",
+      "group": {
+        "id": "ParamGroup30",
+        "name": "后发1.5"
+      },
+      "cdi_source_line": 2235,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation27w": {
+      "original_name": "[0]后发2.5",
+      "group": {
+        "id": "ParamGroup31",
+        "name": "后发2.5"
+      },
+      "cdi_source_line": 2240,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation28w": {
+      "original_name": "[1]后发2.5",
+      "group": {
+        "id": "ParamGroup31",
+        "name": "后发2.5"
+      },
+      "cdi_source_line": 2245,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation29w": {
+      "original_name": "[2]后发2.5",
+      "group": {
+        "id": "ParamGroup31",
+        "name": "后发2.5"
+      },
+      "cdi_source_line": 2250,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation30w": {
+      "original_name": "[3]后发2.5",
+      "group": {
+        "id": "ParamGroup31",
+        "name": "后发2.5"
+      },
+      "cdi_source_line": 2255,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation23w": {
+      "original_name": "[0]后发3.5",
+      "group": {
+        "id": "ParamGroup32",
+        "name": "后发3.5"
+      },
+      "cdi_source_line": 2260,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation24w": {
+      "original_name": "[1]后发3.5",
+      "group": {
+        "id": "ParamGroup32",
+        "name": "后发3.5"
+      },
+      "cdi_source_line": 2265,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation25w": {
+      "original_name": "[2]后发3.5",
+      "group": {
+        "id": "ParamGroup32",
+        "name": "后发3.5"
+      },
+      "cdi_source_line": 2270,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation26w": {
+      "original_name": "[3]后发3.5",
+      "group": {
+        "id": "ParamGroup32",
+        "name": "后发3.5"
+      },
+      "cdi_source_line": 2275,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation23z": {
+      "original_name": "[0]黑长直2",
+      "group": {
+        "id": "ParamGroup34",
+        "name": "黑长直2"
+      },
+      "cdi_source_line": 2280,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation24z": {
+      "original_name": "[1]黑长直2",
+      "group": {
+        "id": "ParamGroup34",
+        "name": "黑长直2"
+      },
+      "cdi_source_line": 2285,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation25z": {
+      "original_name": "[2]黑长直2",
+      "group": {
+        "id": "ParamGroup34",
+        "name": "黑长直2"
+      },
+      "cdi_source_line": 2290,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation26z": {
+      "original_name": "[3]黑长直2",
+      "group": {
+        "id": "ParamGroup34",
+        "name": "黑长直2"
+      },
+      "cdi_source_line": 2295,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation19z": {
+      "original_name": "[0]黑长直1.5",
+      "group": {
+        "id": "ParamGroup35",
+        "name": "黑长直1.5"
+      },
+      "cdi_source_line": 2300,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation20z": {
+      "original_name": "[1]黑长直1.5",
+      "group": {
+        "id": "ParamGroup35",
+        "name": "黑长直1.5"
+      },
+      "cdi_source_line": 2305,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation21z": {
+      "original_name": "[2]黑长直1.5",
+      "group": {
+        "id": "ParamGroup35",
+        "name": "黑长直1.5"
+      },
+      "cdi_source_line": 2310,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation22z": {
+      "original_name": "[3]黑长直1.5",
+      "group": {
+        "id": "ParamGroup35",
+        "name": "黑长直1.5"
+      },
+      "cdi_source_line": 2315,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation27z": {
+      "original_name": "[0]黑长直2.5",
+      "group": {
+        "id": "ParamGroup36",
+        "name": "黑长直2.5"
+      },
+      "cdi_source_line": 2320,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation28z": {
+      "original_name": "[1]黑长直2.5",
+      "group": {
+        "id": "ParamGroup36",
+        "name": "黑长直2.5"
+      },
+      "cdi_source_line": 2325,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation291": {
+      "original_name": "[2]黑长直2.5",
+      "group": {
+        "id": "ParamGroup36",
+        "name": "黑长直2.5"
+      },
+      "cdi_source_line": 2330,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation301": {
+      "original_name": "[3]黑长直2.5",
+      "group": {
+        "id": "ParamGroup36",
+        "name": "黑长直2.5"
+      },
+      "cdi_source_line": 2335,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation18q": {
+      "original_name": "[0]挑染的弯曲变形器2",
+      "group": {
+        "id": "ParamGroup37",
+        "name": "挑染的弯曲变形器2"
+      },
+      "cdi_source_line": 2340,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation19q": {
+      "original_name": "[1]挑染的弯曲变形器2",
+      "group": {
+        "id": "ParamGroup37",
+        "name": "挑染的弯曲变形器2"
+      },
+      "cdi_source_line": 2345,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation20q": {
+      "original_name": "[2]挑染的弯曲变形器2",
+      "group": {
+        "id": "ParamGroup37",
+        "name": "挑染的弯曲变形器2"
+      },
+      "cdi_source_line": 2350,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation21q": {
+      "original_name": "[3]挑染的弯曲变形器2",
+      "group": {
+        "id": "ParamGroup37",
+        "name": "挑染的弯曲变形器2"
+      },
+      "cdi_source_line": 2355,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation19": {
+      "original_name": "[0]挑染2",
+      "group": {
+        "id": "ParamGroup38",
+        "name": "挑染2"
+      },
+      "cdi_source_line": 2360,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation20": {
+      "original_name": "[1]挑染2",
+      "group": {
+        "id": "ParamGroup38",
+        "name": "挑染2"
+      },
+      "cdi_source_line": 2365,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation21": {
+      "original_name": "[2]挑染2",
+      "group": {
+        "id": "ParamGroup38",
+        "name": "挑染2"
+      },
+      "cdi_source_line": 2370,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation22": {
+      "original_name": "[3]挑染2",
+      "group": {
+        "id": "ParamGroup38",
+        "name": "挑染2"
+      },
+      "cdi_source_line": 2375,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation122": {
+      "original_name": "[0]挑染旋转",
+      "group": {
+        "id": "ParamGroup45",
+        "name": "挑染旋转"
+      },
+      "cdi_source_line": 2380,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation123": {
+      "original_name": "[1]挑染旋转",
+      "group": {
+        "id": "ParamGroup45",
+        "name": "挑染旋转"
+      },
+      "cdi_source_line": 2385,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation124": {
+      "original_name": "[2]挑染旋转",
+      "group": {
+        "id": "ParamGroup45",
+        "name": "挑染旋转"
+      },
+      "cdi_source_line": 2390,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting45"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation126": {
+      "original_name": "[0]4 1",
+      "group": {
+        "id": "ParamGroup46",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2395,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation131": {
+      "original_name": "[1]4 1",
+      "group": {
+        "id": "ParamGroup46",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2400,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation132": {
+      "original_name": "[2]4 1",
+      "group": {
+        "id": "ParamGroup46",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2405,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation133": {
+      "original_name": "[3]4 1",
+      "group": {
+        "id": "ParamGroup46",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2410,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation134": {
+      "original_name": "[0]4 1.5",
+      "group": {
+        "id": "ParamGroup47",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2415,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation135": {
+      "original_name": "[1]4 1.5",
+      "group": {
+        "id": "ParamGroup47",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2420,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation136": {
+      "original_name": "[2]4 1.5",
+      "group": {
+        "id": "ParamGroup47",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2425,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation137": {
+      "original_name": "[3]4 1.5",
+      "group": {
+        "id": "ParamGroup47",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2430,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation138": {
+      "original_name": "[0]4 1",
+      "group": {
+        "id": "ParamGroup48",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2435,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation139": {
+      "original_name": "[1]4 1",
+      "group": {
+        "id": "ParamGroup48",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2440,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation140": {
+      "original_name": "[2]4 1",
+      "group": {
+        "id": "ParamGroup48",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2445,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation141": {
+      "original_name": "[3]4 1",
+      "group": {
+        "id": "ParamGroup48",
+        "name": "4 1"
+      },
+      "cdi_source_line": 2450,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting17"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation142": {
+      "original_name": "[0]4 1.5",
+      "group": {
+        "id": "ParamGroup49",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2455,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation143": {
+      "original_name": "[1]4 1.5",
+      "group": {
+        "id": "ParamGroup49",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2460,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation144": {
+      "original_name": "[2]4 1.5",
+      "group": {
+        "id": "ParamGroup49",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2465,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    },
+    "Param_Angle_Rotation145": {
+      "original_name": "[3]4 1.5",
+      "group": {
+        "id": "ParamGroup49",
+        "name": "4 1.5"
+      },
+      "cdi_source_line": 2470,
+      "drives_physics_settings": [],
+      "written_by_physics_settings": [
+        "PhysicsSetting18"
+      ],
+      "physics_sources": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ"
+      ],
+      "physics_targets": []
+    }
+  }
+}

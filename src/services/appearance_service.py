@@ -1,4 +1,4 @@
-"""One disk-backed appearance for every client of this server."""
+"""Aparência única persistida em disco e compartilhada entre todos os clientes deste servidor."""
 import json
 import math
 import os
@@ -44,7 +44,6 @@ def load_appearance() -> AppearancePreset:
         content = PRESET_PATH.read_text(encoding="utf-8")
     except FileNotFoundError:
         return AppearancePreset()
-    # No process-local cache: changes are visible across workers and restarts.
     return AppearancePreset.model_validate_json(content)
 
 
@@ -53,8 +52,8 @@ def save_appearance(preset: AppearancePreset) -> AppearancePreset:
         PRESET_PATH.parent.mkdir(parents=True, exist_ok=True)
         temporary = None
         try:
-            # Replace only after the whole JSON has reached disk. Readers see
-            # either the old preset or the new one, never a half-written file.
+            # Substitui o arquivo só depois de gravar o JSON completo em disco,
+            # garantindo que leitores nunca vejam um arquivo pela metade.
             with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=PRESET_PATH.parent,
                                              prefix=".avatar-appearance-", suffix=".tmp", delete=False) as output:
                 temporary = Path(output.name)

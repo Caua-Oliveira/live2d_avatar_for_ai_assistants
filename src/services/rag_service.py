@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
 
+# JSON usado como prova de conceito; em produção os dados viriam de um banco de dados.
 DATA_PATH = Path(__file__).parent.parent.parent / "data" / "context.json"
+
 
 def _get_json_data() -> dict:
     try:
@@ -12,23 +14,18 @@ def _get_json_data() -> dict:
         raise RuntimeError("Database not found.")
 
 
-
-
 def get_locais() -> dict:
     """
     Obtém informações de locais da faculdade
     """
-
-    # Json como prova de conceito, numa situação real, isso viria de um banco de dados ou outra coisa.
     data = _get_json_data()
     return data.get("locais", {})
+
 
 def get_coordenacao() -> dict:
     """
     Obtém informações sobre a coordenação, coordenadores e horários de atendimento.
     """
-
-    # Json como prova de conceito, numa situação real, isso viria de um banco de dados ou outra coisa.
     data = _get_json_data()
     return data.get("coordenacao", {})
 

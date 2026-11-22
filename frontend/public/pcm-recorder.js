@@ -1,4 +1,4 @@
-// Buffer mono PCM in the audio thread; WAV avoids browser-specific codec/FFmpeg requirements.
+// Acumula PCM mono na thread de áudio, evitando dependência de codecs específicos do navegador.
 class PCMRecorder extends AudioWorkletProcessor {
   constructor() {
     super();

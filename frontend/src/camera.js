@@ -1,4 +1,3 @@
-// Inference stays on-device. Only the detector assets are downloaded.
 export class FaceTracking {
   stream = null;
   detector = null;
@@ -45,7 +44,7 @@ export class FaceTracking {
           lastDetection = now;
           try {
             const { detections } = this.detector.detectForVideo(this.video, now);
-            // The largest face is the person closest to the assistant.
+            // O maior rosto na imagem corresponde à pessoa mais próxima do assistente.
             const face = detections.sort((a, b) => b.boundingBox.width * b.boundingBox.height - a.boundingBox.width * a.boundingBox.height)[0];
             if (face) {
               lastFaceSeen = now;
@@ -55,8 +54,8 @@ export class FaceTracking {
               this.onGaze(x, y, true);
               this.onStatus('Contato visual conectado');
             } else if (now - lastFaceSeen > 450) {
-              // Brief detector misses during movement should not snap gaze back
-              // to idle. A sustained loss still releases the gaze to center.
+              // Falhas breves do detector durante movimento não devolvem o olhar imediatamente ao centro;
+              // apenas uma perda sustentada libera o olhar.
               this.onGaze(0, 0, false);
               this.onStatus('Procurando seu rosto…');
             }

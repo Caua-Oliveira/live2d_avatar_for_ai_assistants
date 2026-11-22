@@ -2,8 +2,8 @@ export const MODEL_VERSION = 'MO.v2.7';
 export const MODEL_URL = `/${MODEL_VERSION}/MO.model3.json`;
 const API_BASE = (import.meta.env?.VITE_API_BASE_URL || '').replace(/\/$/, '');
 
-// Only appearance inputs belong here, never tracking/physics outputs or the
-// rig's decorative headings. Limits and defaults come from the compiled model.
+// Inclui apenas parâmetros de aparência (nunca saídas de tracking/física nem títulos
+// decorativos do rig). Os limites e valores padrão vêm do modelo compilado.
 const groups = [
   ['hair', 'Cabelo', [
     ['Param20', 'Estilo da franja', 'choice'],

@@ -4,15 +4,11 @@
       "coordenador": "Prof. Caio",
       "atendimentos": {
         "segunda": {
-          "inicio": "08:00",
+          "inicio": "10:00",
           "fim": "12:00"
         },
-        "terca": {
-          "inicio": "14:00",
-          "fim": "19:30"
-        },
         "quinta": {
-          "inicio": "08:00",
+          "inicio": "10:00",
           "fim": "12:00"
         }
       }
@@ -23,10 +19,10 @@
       "predio": 1,
       "andar": 1
     },
-    "nite": {
+    "nite/niti/núcleo de inovação e tecnologia": {
       "predio": 1,
       "andar": 4,
-      "direcoes ": "Na direita após a entrada"
+      "direcoes": "Na direita após a entrada"
     },
     "centro_de_carreiras": {
       "predio": 1,

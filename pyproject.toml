@@ -1,24 +1,16 @@
 [project]
 name = "university-ai-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Gemini Live backend and Live2D assistant interface for Jorgina"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi",
-    "openai",
     "httpx",
+    "google-genai>=2.34,<3",
     "pydantic",
     "pydantic-settings",
-    "pydub",
-    "audioop-lts; python_version >= '3.13'",
-    "python-multipart",
-    "speechrecognition",
-    "nvidia-riva-client",
     "uvicorn[standard]",
 ]
-
-[project.scripts]
-university-ai-backend = "university_ai_backend:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
