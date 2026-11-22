@@ -180,9 +180,8 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Frontend dependencies and generated speech
+# Frontend dependencies
 node_modules/
-static/audios/*.mp3
 
 # Logs
 logs
@@ -208,3 +207,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Modelo Live2D de terceiros (MO v2.7)
+frontend/public/MO.v2.7/
+MO.v2.7/
+*.moc3
